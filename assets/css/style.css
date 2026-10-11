@@ -403,6 +403,24 @@ img { max-width: 100%; display: block; }
 .contact-address { color: var(--text-muted); margin: 4px 0 0; }
 .map { width: 100%; aspect-ratio: 4 / 3; border: 1px solid var(--border); border-radius: var(--radius); }
 
+/* ---------- hover motion ---------- */
+.card, .project, .member, .glance-item, .contact-card {
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+.card:hover, .project:hover, .member:hover, .glance-item:hover, .contact-card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+  box-shadow: 0 8px 24px -12px rgb(15 23 42 / 0.25);
+}
+.member .avatar { transition: transform 220ms ease; }
+.member:hover .avatar { transform: scale(1.04); }
+.pub { transition: background-color 160ms ease; border-radius: 8px; }
+.pub:hover { background: var(--bg-soft); }
+@media (prefers-reduced-motion: reduce) {
+  .card, .project, .member, .glance-item, .contact-card, .member .avatar, .pub { transition: none; }
+  .card:hover, .project:hover, .member:hover, .glance-item:hover, .contact-card:hover, .member:hover .avatar { transform: none; }
+}
+
 /* ---------- footer ---------- */
 .site-footer { margin-top: 80px; border-top: 1px solid var(--border); background: var(--bg-soft); }
 .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; padding-top: 32px; padding-bottom: 40px; font-size: 14px; }
