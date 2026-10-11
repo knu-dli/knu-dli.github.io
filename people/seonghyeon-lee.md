@@ -18,7 +18,7 @@ bio: >-
   [Prof. Hwanjo Yu](https://sites.google.com/view/postechdi/member/faculty). Before joining KNU,
   I was a postdoctoral researcher at the POSTECH Data Intelligence Lab and a machine learning
   researcher at ScatterLab.
-# Each row: { when: "...", title: "...", where: "..." }
+# Each row: { when: "...", title: "...", where: "...", tags: [optional, chips] }
 education:
   - { when: "Mar. 2018 – Aug. 2024", title: "Ph.D. in Computer Science and Engineering", where: "POSTECH · Thesis: Leveraging Relational Knowledge with Pretrained Language Models · Advisor: Prof. Hwanjo Yu" }
   - { when: "Mar. 2014 – Feb. 2018", title: "B.S. in Computer Science and Engineering, Summa Cum Laude", where: "POSTECH" }
@@ -39,16 +39,14 @@ talks:
   - { when: "Jun. 17, 2024", title: "Evaluating Generative Language Models", where: "EECS Seminar, DGIST" }
 # Kyungpook National University, from the KNU course catalog (knuin.knu.ac.kr)
 teaching:
-  - { when: "Fall 2026", title: "Natural Language Processing", where: "자연언어처리 · Graduate · COME0746 · Taught in English" }
-  - { when: "Fall 2026", title: "Introduction to Reinforcement Learning", where: "강화학습개론 · Undergraduate · CAIB0216" }
-  - { when: "Spring 2026", title: "Reinforcement Learning", where: "강화학습 · Graduate · ARIN0710 · Taught in English" }
-  - { when: "Spring 2026", title: "Fundamentals of Data Science", where: "데이터과학기초 · Undergraduate · ITEC0419" }
-  - { when: "Spring 2026", title: "Problem-Based Engineering Practicum (Computer Science)", where: "문제해결기반 공학연수실습(컴퓨터학) · Undergraduate · COMP0460" }
-  - { when: "Fall 2025", title: "Introduction to Natural Language Processing", where: "자연어처리개론 · Undergraduate · CAIB0211 · Taught in English" }
-  - { when: "Fall 2025", title: "Introduction to Reinforcement Learning", where: "강화학습개론 · Undergraduate · CAIB0216 · Taught in English" }
-  - { when: "Fall 2025", title: "Problem-Based Engineering Practicum (Computer Science)", where: "문제해결기반 공학연수실습(컴퓨터학) · Undergraduate · COMP0460" }
-  - { when: "Spring 2025", title: "AI Convergence Applications", where: "인공지능융합응용 · Graduate · GRAD0732 · Taught in English" }
-  - { when: "Spring 2025", title: "Open Source Programming", where: "오픈소스프로그래밍 · Undergraduate · GLSO0215" }
+  - { when: "Fall 2026", title: "Natural Language Processing", where: "자연언어처리", tags: [COME0746, Graduate] }
+  - { when: "Fall 2026", title: "Introduction to Reinforcement Learning", where: "강화학습개론", tags: [CAIB0216, Undergraduate] }
+  - { when: "Spring 2026", title: "Reinforcement Learning", where: "강화학습", tags: [ARIN0710, Graduate] }
+  - { when: "Spring 2026", title: "Fundamentals of Data Science", where: "데이터과학기초", tags: [ITEC0419, Undergraduate] }
+  - { when: "Fall 2025", title: "Introduction to Natural Language Processing", where: "자연어처리개론", tags: [CAIB0211, Undergraduate] }
+  - { when: "Fall 2025", title: "Introduction to Reinforcement Learning", where: "강화학습개론", tags: [CAIB0216, Undergraduate] }
+  - { when: "Spring 2025", title: "AI Convergence Applications", where: "인공지능융합응용", tags: [GRAD0732, Graduate] }
+  - { when: "Spring 2025", title: "Open Source Programming", where: "오픈소스프로그래밍", tags: [GLSO0215, Undergraduate] }
 service:
   - { when: "Sep. 2023 – Present", title: "Reviewer", where: "ACL Rolling Review" }
   - { when: "Apr. 2024", title: "Reviewer", where: "Korea Software Congress (KSC)" }
