@@ -1,0 +1,8 @@
+<ul class="news-list">
+  {% for n in include.items %}
+  <li>
+    <time datetime="{{ n.date | date: '%Y-%m-%d' }}">{{ n.date | date: '%b %Y' }}</time>
+    <p>{{ n.text }}</p>
+  </li>
+  {% endfor %}
+</ul>

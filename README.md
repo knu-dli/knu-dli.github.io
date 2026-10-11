@@ -11,6 +11,7 @@ Most updates only touch the YAML files in `_data/`:
 | Members | `_data/members.yml` (photos go in `assets/img/members/`) |
 | Publications | `_data/publications.yml` (lab members' names are bolded automatically) |
 | Projects | `_data/projects.yml` |
+| News | `_data/news.yml` (newest first; the home page shows the latest 5) |
 | Navigation menu | `_data/navigation.yml` |
 
 Page text lives in `index.html` (home), `join.md` (lab participation), `gks.md`, and `contact.html`.

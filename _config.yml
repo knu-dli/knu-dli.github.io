@@ -16,6 +16,7 @@ markdown: kramdown
 permalink: pretty
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Link-preview image (og:image / Twitter card) for every page
 defaults:
