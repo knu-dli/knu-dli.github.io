@@ -197,7 +197,7 @@ img { max-width: 100%; display: block; }
 .member-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 @media (max-width: 720px) { .member-grid { grid-template-columns: 1fr; } }
 .member { display: flex; gap: 16px; align-items: flex-start; padding: 16px; border-radius: var(--radius); border: 1px solid var(--border); background: var(--surface); }
-.avatar { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+.avatar { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); box-shadow: 0 1px 3px rgb(0 0 0 / 0.08); }
 .member-grid-lg .avatar { width: 96px; height: 96px; }
 .avatar-initials { display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); font-weight: 700; font-size: 22px; }
 .member-grid-lg .avatar-initials { font-size: 28px; }
