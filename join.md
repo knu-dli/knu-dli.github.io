@@ -15,7 +15,7 @@ lead: We welcome motivated students who want to do publication-quality research 
 <div class="glance">
   <div class="glance-item">
     <p class="glance-label">Who</p>
-    <p>Undergraduates in their <strong>final year</strong> who plan to go to graduate school</p>
+    <p>Undergraduates in their <strong>third year or above</strong> who plan to go to graduate school</p>
   </div>
   <div class="glance-item">
     <p class="glance-label">Requirements</p>
@@ -52,7 +52,7 @@ This keeps things transparent and predictable. Students who consistently produce
 
 ## Who Can Apply {#who-can-apply}
 
-**Timing.** We usually accept undergraduate research students in their final year before graduation, so that you can focus on research without a heavy course load. Students who plan to apply to graduate programs and want to spend their final semester on intensive research are especially encouraged to apply.
+**Timing.** We accept undergraduate research students in their third year or above. Starting before your final year gives you time to carry a project through to publication before you graduate. Students who plan to apply to graduate programs and want intensive research experience are especially encouraged to apply.
 
 **Coding skills.** You should be comfortable with basic data structures and algorithms. As a reference, you should be able to solve [this list of LeetCode problems](https://leetcode.com/problem-list/vur1tcd5/) within a day of focused effort. In our experience, most upper-year students in the KNU School of Computer Science can solve them without much difficulty, and we expect every lab member to be able to, whatever their research focus.
 
