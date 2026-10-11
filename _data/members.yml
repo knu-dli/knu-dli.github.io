@@ -7,7 +7,7 @@
       interests: Language Modeling, Code Language Models, Evaluation, Coding Agent
       email: sh0416{at}knu.ac.kr
       cv: https://drive.google.com/file/d/1pGbDx_8SQFNRvA55GdmhsQWhsDgwXk9X/view?usp=sharing
-      photo:
+      photo: seonghyeon-lee.jpg
     - name: Suyeon Kim
       role: Assistant Professor
       interests: Robust & Explainable AI × Cross-domain Applications (Graph, Biomedical, Time-series, PINNs)
@@ -27,16 +27,16 @@
   members:
     - name: Taehyeon Han
       interests: LLM Agents, Code Language Models
-      photo:
+      photo: taehyeon-han.jpg
 
 - group: B.S. & M.S. Integrated Students
   members:
     - name: Yoonho Choi
       interests: LLM Agents
-      photo:
+      photo: yoonho-choi.jpg
 
 - group: Undergraduate Researchers
   members:
     - name: Hwanhui Choi
       interests:
-      photo:
+      photo: hwanhui-choi.jpg
