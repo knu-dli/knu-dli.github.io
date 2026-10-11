@@ -162,7 +162,8 @@ img { max-width: 100%; display: block; }
 /* ---------- members ---------- */
 .member-group { margin-bottom: 48px; }
 .member-group h2 { font-size: 20px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
-.member-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.member-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+@media (max-width: 720px) { .member-grid { grid-template-columns: 1fr; } }
 .member { display: flex; gap: 16px; align-items: flex-start; padding: 16px; border-radius: var(--radius); border: 1px solid var(--border); background: var(--surface); }
 .avatar { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
 .member-grid-lg .avatar { width: 96px; height: 96px; }
