@@ -171,6 +171,10 @@ img { max-width: 100%; display: block; }
 .project-meta { display: flex; align-items: center; gap: 10px; color: var(--text-faint); font-size: 14px; }
 .project-ko { font-size: 15px; color: var(--text-faint) !important; }
 .badge { font-size: 12px; font-weight: 600; padding: 2px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+.badge-muted { background: var(--bg-soft); color: var(--text-muted); border: 1px solid var(--border); }
+.project-people { display: flex; flex-wrap: wrap; gap: 6px 28px; margin: 0 0 12px; font-size: 14px; }
+.project-people dt { color: var(--text-faint); font-size: 12px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
+.project-people dd { margin: 2px 0 0; color: var(--text); font-weight: 600; }
 
 /* ---------- page ---------- */
 .page { padding: 56px 0 24px; }

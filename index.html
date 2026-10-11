@@ -49,15 +49,11 @@ title: Home
 </section>
 
 <section class="section">
-  <h2>Current project</h2>
-  {% for p in site.data.projects %}{% if p.status == 'ongoing' %}
-  <article class="project">
-    <div class="project-meta"><span class="badge">Government-funded</span><span>{{ p.period }}</span></div>
-    <h3>{{ p.title }}</h3>
-    <p class="project-ko">{{ p.title_ko }}</p>
-    <p>Our primary project develops code-expert language models and coding agents that understand and operate over entire code repositories. We study repository-level code completion, context construction across multiple files, long-range dependency modeling in code, and agentic workflows in which models navigate large codebases, reason about project structure, and iteratively interact with tools.</p>
-  </article>
-  {% endif %}{% endfor %}
+  <div class="section-head">
+    <h2>Current projects</h2>
+    <a href="{{ '/projects/' | relative_url }}">All projects →</a>
+  </div>
+  {% for p in site.data.projects %}{% if p.status == 'ongoing' %}{% include project.html project=p %}{% endif %}{% endfor %}
 </section>
 
 <section class="section">

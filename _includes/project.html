@@ -1,0 +1,17 @@
+{% assign p = include.project %}
+<article class="project">
+  <div class="project-meta">
+    {% if p.status == 'ongoing' %}<span class="badge">Ongoing</span>{% endif %}
+    {% if p.funding %}<span class="badge badge-muted">{{ p.funding }}</span>{% endif %}
+    {% if p.period %}<span>{{ p.period }}</span>{% endif %}
+  </div>
+  <h3>{{ p.title }}</h3>
+  {% if p.title_ko %}<p class="project-ko">{{ p.title_ko }}</p>{% endif %}
+  {% if p.pi or p.co_investigators %}
+  <dl class="project-people">
+    {% if p.pi %}<div><dt>Principal Investigator</dt><dd>{{ p.pi }}</dd></div>{% endif %}
+    {% if p.co_investigators %}<div><dt>Co-Investigator{% if p.co_investigators.size > 1 %}s{% endif %}</dt><dd>{{ p.co_investigators | join: ", " }}</dd></div>{% endif %}
+  </dl>
+  {% endif %}
+  {% if p.description %}<p>{{ p.description }}</p>{% endif %}
+</article>
