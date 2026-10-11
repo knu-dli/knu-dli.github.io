@@ -1,6 +1,9 @@
 # Newest first. date: YYYY-MM-DD (shown as "Mon YYYY"; add `label:` to show something else, e.g. a year).
 # Quote text (it may contain colons and HTML).
 # icon: one emoji, e.g. 🎉 paper accepted · 🚀 project/funding · 📝 reviewing & service · ☁️ resources · 🏆 award · 👋 new member · 🎓 graduation
+- date: 2026-10-01
+  icon: 📝
+  text: "Prof. Seonghyeon Lee has been invited to serve as a senior program committee member for AAAI-27."
 - date: 2026-09-01
   icon: 🚀
   text: "A new government-funded project, <em>Development of Automation and Knowledge Accumulation Technology for Industrial Data-Driven Physics-Informed Neural Networks</em>, has started (PI: Prof. Suyeon Kim)."
