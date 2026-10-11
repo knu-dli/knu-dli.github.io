@@ -5,6 +5,7 @@ description: >-
   Kyungpook National University. We study generative language models, coding agents, and LLMs.
 affiliation: School of Computer Science and Engineering, Kyungpook National University, Daegu, South Korea
 email: sh0416{at}knu.ac.kr
+github_org: https://github.com/knu-dli
 lang: en
 
 # For a project site (https://<user>.github.io/<repo>/) set baseurl to "/<repo>".

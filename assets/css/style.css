@@ -288,6 +288,12 @@ img { max-width: 100%; display: block; }
 .member-interests { color: var(--text-muted) !important; }
 .member-email { color: var(--text-faint) !important; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px !important; }
 .member-links { display: flex; gap: 12px; margin-top: 6px !important; font-weight: 600; }
+.profile-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px !important; }
+.profile-links a {
+  font-size: 12px !important; font-weight: 600; line-height: 1; padding: 6px 9px; border-radius: 6px;
+  border: 1px solid var(--border); color: var(--text-muted); background: var(--bg);
+}
+.profile-links a:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
 
 /* ---------- publications ---------- */
 .subnav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }

@@ -1,4 +1,5 @@
 # Each group renders as a section on the Members page.
+# links (optional, shown as buttons in this order): scholar, dblp, semantic_scholar, acl, openreview, orcid, github, linkedin
 # photo: put the image in assets/img/members/ and give its file name. Without a photo, initials are shown.
 - group: Faculty
   members:
@@ -7,6 +8,15 @@
       interests: Language Modeling, Code Language Models, Evaluation, Coding Agent
       email: sh0416{at}knu.ac.kr
       cv: https://drive.google.com/file/d/1pGbDx_8SQFNRvA55GdmhsQWhsDgwXk9X/view?usp=sharing
+      links:
+        scholar: https://scholar.google.com/citations?user=VZpKsNEAAAAJ
+        dblp: https://dblp.org/pid/251/9511
+        semantic_scholar: https://www.semanticscholar.org/author/72490748
+        acl: https://aclanthology.org/people/seonghyeon-lee/
+        openreview: https://openreview.net/profile?id=~Seonghyeon_Lee1
+        orcid: https://orcid.org/0009-0002-0039-8920
+        github: https://github.com/sh0416
+        linkedin: https://www.linkedin.com/in/seonghyeondrewlee/
       photo: seonghyeon-lee.jpg
     - name: Suyeon Kim
       role: Assistant Professor
