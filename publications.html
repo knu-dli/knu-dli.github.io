@@ -1,0 +1,26 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+lead: Names of lab members are shown in bold.
+---
+<nav class="subnav" aria-label="Publication categories">
+  {% for c in site.data.publications %}{% if c.items.size > 0 %}
+  <a href="#{{ c.id }}">{{ c.category }} <span>{{ c.items.size }}</span></a>
+  {% endif %}{% endfor %}
+</nav>
+
+{% for c in site.data.publications %}{% if c.items.size > 0 %}
+<section class="pub-section" id="{{ c.id }}">
+  <h2>{{ c.category }}</h2>
+  {% assign by_year = c.items | group_by: "year" %}
+  {% for y in by_year %}
+  <div class="pub-year">
+    <h3>{{ y.name }}</h3>
+    <ul class="pub-list">
+      {% for pub in y.items %}{% include publication.html pub=pub %}{% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}{% endfor %}

@@ -1,0 +1,8 @@
+- title: Code-Expert Language Models and Coding Agents for AI-Assisted Software Development
+  title_ko: 인공지능 보조 소프트웨어 개발을 위한 코드 전문가 언어모델 및 코딩 에이전트 개발
+  period: Mar. 2025 – Feb. 2030
+  status: ongoing
+  description: >-
+    Moving beyond line- or function-level code generation toward language models that understand
+    and operate over entire code repositories: repository-level code completion, cross-file context
+    construction, long-range dependency modeling, and agentic workflows for software development.

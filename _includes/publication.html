@@ -1,0 +1,18 @@
+{% assign authors = include.pub.authors %}
+{% for g in site.data.members %}{% for m in g.members %}
+  {% assign bold = '<strong>' | append: m.name | append: '</strong>' %}
+  {% assign authors = authors | replace: m.name, bold %}
+{% endfor %}{% endfor %}
+<li class="pub">
+  <span class="pub-venue">{{ include.pub.venue }}</span>
+  <div class="pub-body">
+    <p class="pub-title">{{ include.pub.title }}</p>
+    <p class="pub-authors">{{ authors }}{% if include.pub.note %} <span class="pub-note">({{ include.pub.note }})</span>{% endif %}</p>
+    {% if include.pub.venue_detail %}<p class="pub-detail">{{ include.pub.venue_detail }}</p>{% endif %}
+    {% if include.pub.links %}
+    <p class="pub-links">
+      {% for l in include.pub.links %}<a href="{{ l[1] }}">{{ l[0] | upcase }}</a>{% endfor %}
+    </p>
+    {% endif %}
+  </div>
+</li>

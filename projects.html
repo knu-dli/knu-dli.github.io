@@ -1,0 +1,16 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+{% for p in site.data.projects %}
+<article class="project">
+  <div class="project-meta">
+    {% if p.status == 'ongoing' %}<span class="badge">Ongoing</span>{% endif %}
+    <span>{{ p.period }}</span>
+  </div>
+  <h3>{{ p.title }}</h3>
+  {% if p.title_ko %}<p class="project-ko">{{ p.title_ko }}</p>{% endif %}
+  {% if p.description %}<p>{{ p.description }}</p>{% endif %}
+</article>
+{% endfor %}

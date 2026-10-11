@@ -1,0 +1,72 @@
+---
+layout: default
+title: Home
+---
+<section class="hero">
+  <p class="eyebrow">Kyungpook National University · School of CSE</p>
+  <h1>Data &amp; Language<br>Intelligence Lab</h1>
+  <p class="lead">We build generative language models that reason over code, use tools, and work as reliable coding agents — and we study what makes LLMs behave the way they do.</p>
+  <div class="hero-actions">
+    <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join the lab</a>
+    <a class="btn" href="{{ '/publications/' | relative_url }}">Publications</a>
+  </div>
+</section>
+
+<aside class="notice" aria-label="Recruiting">
+  <p class="notice-title">🎓 We are recruiting undergraduate research students</p>
+  <p>We are looking for highly motivated students (senior year or above) planning to pursue graduate studies, especially those interested in generative language models, NLP, or machine learning. Send a brief self-introduction and your academic background to <strong>{{ site.email }}</strong>.</p>
+  <p class="notice-links">
+    <a href="{{ '/join/' | relative_url }}">How lab participation works →</a>
+    <a href="{{ '/gks/' | relative_url }}">GKS scholarship applicants →</a>
+  </p>
+</aside>
+
+<section class="section">
+  <h2>Research</h2>
+  <div class="cards">
+    <article class="card">
+      <span class="card-icon" aria-hidden="true">🤖</span>
+      <h3>Language models as coding agents</h3>
+      <p>Methods that let language models reason over code, interact with external tools, and use structured context to solve complex programming tasks — improving the reliability, controllability, and practical usefulness of code-generating agents in real development settings.</p>
+      <ul class="tags">
+        <li>Prompt &amp; context design</li>
+        <li>Tool-augmented generation</li>
+        <li>Code understanding &amp; editing</li>
+        <li>Agent evaluation</li>
+      </ul>
+    </article>
+    <article class="card">
+      <span class="card-icon" aria-hidden="true">🧠</span>
+      <h3>General LLM research</h3>
+      <p>LLM-based methods and analyses that explain how language models behave, and that strengthen their capabilities through both training and inference-time techniques.</p>
+      <ul class="tags">
+        <li>Training</li>
+        <li>Inference-time methods</li>
+        <li>Interpretability &amp; analysis</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Current project</h2>
+  {% for p in site.data.projects %}{% if p.status == 'ongoing' %}
+  <article class="project">
+    <div class="project-meta"><span class="badge">Government-funded</span><span>{{ p.period }}</span></div>
+    <h3>{{ p.title }}</h3>
+    <p class="project-ko">{{ p.title_ko }}</p>
+    <p>Our primary project develops code-expert language models and coding agents that understand and operate over entire code repositories. We study repository-level code completion, context construction across multiple files, long-range dependency modeling in code, and agentic workflows in which models navigate large codebases, reason about project structure, and iteratively interact with tools.</p>
+  </article>
+  {% endif %}{% endfor %}
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Recent publications</h2>
+    <a href="{{ '/publications/' | relative_url }}">All publications →</a>
+  </div>
+  {% assign recent = site.data.publications | where: "id", "conference" | first %}
+  <ul class="pub-list">
+    {% for pub in recent.items limit: 4 %}{% include publication.html pub=pub %}{% endfor %}
+  </ul>
+</section>

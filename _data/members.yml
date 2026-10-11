@@ -1,0 +1,42 @@
+# Each group renders as a section on the Members page.
+# photo: put the image in assets/img/members/ and give its file name. Without a photo, initials are shown.
+- group: Faculty
+  members:
+    - name: Seonghyeon Lee
+      role: Assistant Professor
+      interests: Language Modeling, Code Language Models, Evaluation, Coding Agent
+      email: sh0416{at}knu.ac.kr
+      cv: https://drive.google.com/file/d/1pGbDx_8SQFNRvA55GdmhsQWhsDgwXk9X/view?usp=sharing
+      photo:
+    - name: Suyeon Kim
+      role: Assistant Professor
+      interests: Robust & Explainable AI × Cross-domain Applications (Graph, Biomedical, Time-series, PINNs)
+      email: kimsu55{at}knu.ac.kr
+      homepage: https://kimsu55.github.io/
+      photo:
+
+- group: Postdoctoral Researchers
+  members:
+    - name: Kyungwhan An
+      interests: AI4Science, Bioinformatics, Multiomics, Drug Discovery
+      email: micolak0115{at}postech.ac.kr / kyungwhan1998{at}gmail.com
+      homepage: https://micolak0115.github.io
+      photo:
+
+- group: M.S. & Ph.D. Integrated Students
+  members:
+    - name: Taehyeon Han
+      interests: LLM Agents, Code Language Models
+      photo:
+
+- group: B.S. & M.S. Integrated Students
+  members:
+    - name: Yoonho Choi
+      interests: LLM Agents
+      photo:
+
+- group: Undergraduate Researchers
+  members:
+    - name: Hwanhui Choi
+      interests:
+      photo:
