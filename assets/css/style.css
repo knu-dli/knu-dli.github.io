@@ -184,12 +184,33 @@ img { max-width: 100%; display: block; }
 .prose ul { padding-left: 20px; }
 .prose li + li { margin-top: 6px; }
 .page .prose:has(.member-group, .pub-section, .contact-grid, .project) { max-width: none; }
-.toc { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
-.toc a, .subnav a {
+.subnav a {
   font-size: 14px; font-weight: 500; padding: 6px 12px; border-radius: 999px;
   border: 1px solid var(--border); color: var(--text-muted); background: var(--surface);
 }
-.toc a:hover, .subnav a:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+.subnav a:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+
+.page-with-toc { display: grid; grid-template-columns: minmax(0, 1fr) 232px; gap: 56px; align-items: start; }
+.page-with-toc .prose > h2:first-child { margin-top: 0; padding-top: 0; }
+.toc-aside { position: sticky; top: 92px; }
+.toc-title { margin: 0 0 10px; font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-faint); }
+.toc-side ol { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--border); }
+.toc-side a {
+  display: block; margin-left: -1px; padding: 6px 0 6px 14px; border-left: 2px solid transparent;
+  font-size: 14px; line-height: 1.4; color: var(--text-muted);
+}
+.toc-side a:hover { color: var(--text); text-decoration: none; }
+.toc-side a[aria-current] { color: var(--accent); border-left-color: var(--accent); font-weight: 600; }
+@media (max-width: 960px) {
+  .page-with-toc { grid-template-columns: 1fr; gap: 24px; }
+  .toc-aside { position: static; order: -1; }
+  .toc-side ol { display: flex; flex-wrap: wrap; gap: 8px; border-left: 0; }
+  .toc-side a {
+    margin: 0; padding: 6px 12px; border: 1px solid var(--border); border-radius: 999px;
+    background: var(--surface); font-size: 13px;
+  }
+  .toc-side a[aria-current] { border-color: var(--border); color: var(--text-muted); font-weight: 400; }
+}
 
 /* ---------- members ---------- */
 .member-group { margin-bottom: 48px; }
@@ -234,9 +255,15 @@ img { max-width: 100%; display: block; }
 .pub-authors strong { color: var(--text); font-weight: 650; }
 .pub-note, .pub-detail { color: var(--text-faint); font-size: 14px; }
 .pub-detail { font-style: italic; }
-.pub-links { display: flex; gap: 8px; margin-top: 8px !important; }
-.pub-links a { font-size: 12px; font-weight: 700; padding: 2px 8px; border: 1px solid var(--border); border-radius: 6px; color: var(--text-muted); }
-.pub-links a:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+.pub-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px !important; }
+.pub-btn {
+  display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; line-height: 1;
+  padding: 7px 12px; border: 1px solid var(--border); border-radius: 8px; color: var(--text-muted); background: var(--surface);
+}
+.pub-btn svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.pub-btn:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+.pub-btn-primary { background: var(--accent-soft); border-color: transparent; color: var(--accent); }
+.pub-btn-primary:hover { background: var(--primary-bg); border-color: var(--primary-bg); color: #fff; }
 
 /* ---------- contact ---------- */
 .contact-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 24px; align-items: start; }

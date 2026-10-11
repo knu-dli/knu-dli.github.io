@@ -7,7 +7,40 @@ layout: default
     <h1>{{ page.title }}</h1>
     {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
   </header>
+  {% if page.toc %}
+  <div class="page-with-toc">
+    <div class="prose">
+      {{ content }}
+    </div>
+    <aside class="toc-aside">
+      <nav class="toc-side" aria-label="On this page">
+        <p class="toc-title">On this page</p>
+        <ol>
+          {% for t in page.toc %}<li><a href="#{{ t.id }}">{{ t.title }}</a></li>{% endfor %}
+        </ol>
+      </nav>
+    </aside>
+  </div>
+  <script>
+    (function () {
+      var links = Array.prototype.slice.call(document.querySelectorAll(".toc-side a"));
+      var heads = links.map(function (a) { return document.getElementById(a.getAttribute("href").slice(1)); });
+      function update() {
+        var i = 0;
+        heads.forEach(function (h, k) { if (h && h.getBoundingClientRect().top < 120) i = k; });
+        if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 2) i = heads.length - 1;
+        links.forEach(function (a, k) { if (k === i) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current"); });
+      }
+      var queued = false;
+      window.addEventListener("scroll", function () {
+        if (!queued) { queued = true; requestAnimationFrame(function () { queued = false; update(); }); }
+      }, { passive: true });
+      update();
+    })();
+  </script>
+  {% else %}
   <div class="prose">
     {{ content }}
   </div>
+  {% endif %}
 </article>

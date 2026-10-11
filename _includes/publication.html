@@ -11,7 +11,11 @@
     {% if include.pub.venue_detail %}<p class="pub-detail">{{ include.pub.venue_detail }}</p>{% endif %}
     {% if include.pub.links %}
     <p class="pub-links">
-      {% for l in include.pub.links %}<a href="{{ l[1] }}">{{ l[0] | upcase }}</a>{% endfor %}
+      {% assign L = include.pub.links %}
+      {% if L.paper %}<a class="pub-btn pub-btn-primary" href="{{ L.paper }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg>Paper</a>{% endif %}
+      {% if L.arxiv %}<a class="pub-btn" href="{{ L.arxiv }}" target="_blank" rel="noopener">arXiv</a>{% endif %}
+      {% if L.code %}<a class="pub-btn" href="{{ L.code }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>Code</a>{% endif %}
+      {% if L.project %}<a class="pub-btn" href="{{ L.project }}" target="_blank" rel="noopener">Project</a>{% endif %}
     </p>
     {% endif %}
   </div>

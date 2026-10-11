@@ -3,18 +3,16 @@ layout: page
 title: Lab Participation
 eyebrow: Join Us
 permalink: /join/
+toc:
+  - { id: before-you-apply, title: Before You Apply }
+  - { id: application-timeline, title: Application Timeline }
+  - { id: minimum-requirements, title: Minimum Requirements }
+  - { id: research-goal, title: Research Goal }
+  - { id: student-responsibilities, title: Student Responsibilities }
+  - { id: monthly-meetings, title: Monthly Research Meetings }
+  - { id: project-participation, title: Participation & Compensation }
 lead: Please read this page carefully before applying. It explains how research participation in our lab is structured and what we expect from students.
 ---
-
-<nav class="toc" aria-label="On this page" markdown="0">
-  <a href="#before-you-apply">Before you apply</a>
-  <a href="#application-timeline">Timeline</a>
-  <a href="#minimum-requirements">Requirements</a>
-  <a href="#research-goal">Research goal</a>
-  <a href="#student-responsibilities">Responsibilities</a>
-  <a href="#monthly-meetings">Monthly meetings</a>
-  <a href="#project-participation">Compensation</a>
-</nav>
 
 ## Before You Apply {#before-you-apply}
 
