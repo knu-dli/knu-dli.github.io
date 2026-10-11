@@ -277,6 +277,9 @@ img { max-width: 100%; display: block; }
   .avatar.avatar-xl { width: 128px; height: 128px; }
 }
 .profile-body section { margin-top: 8px; }
+.profile .page-with-toc { margin-top: 32px; }
+.profile-main { min-width: 0; }
+.profile-body > section:first-child h2 { margin-top: 0; padding-top: 0; }
 .profile-pubs { margin-top: 48px; }
 .profile-pubs h2 .count { font-size: 15px; font-weight: 600; color: var(--text-faint); margin-left: 6px; }
 .timeline { list-style: none; padding: 0 !important; margin: 0; }

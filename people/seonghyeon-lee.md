@@ -23,8 +23,8 @@ education:
   - { when: "Mar. 2018 – Aug. 2024", title: "Ph.D. in Computer Science and Engineering", where: "POSTECH · Thesis: Leveraging Relational Knowledge with Pretrained Language Models · Advisor: Prof. Hwanjo Yu" }
   - { when: "Mar. 2014 – Feb. 2018", title: "B.S. in Computer Science and Engineering, Summa Cum Laude", where: "POSTECH" }
 experience:
-  - { when: "Present", title: "Assistant Professor", where: "School of Computer Science and Engineering, Kyungpook National University" }
-  - { when: "From Sep. 2024", title: "Postdoctoral Researcher", where: "Data Intelligence Lab, Department of Computer Science and Engineering, POSTECH" }
+  - { when: "Mar. 2025 – Present", title: "Assistant Professor", where: "School of Computer Science and Engineering, Kyungpook National University" }
+  - { when: "Sep. 2024 – Feb. 2025", title: "Postdoctoral Researcher", where: "Data Intelligence Lab, Department of Computer Science and Engineering, POSTECH" }
   - { when: "Feb. 2023 – Feb. 2024", title: "Machine Learning Researcher", where: "ScatterLab" }
   - { when: "Feb. 2021 – Feb. 2023", title: "Visiting Researcher", where: "ScatterLab" }
   - { when: "Jul. – Aug. 2017", title: "Intern", where: "NAVER" }

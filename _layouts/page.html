@@ -21,23 +21,7 @@ layout: default
       </nav>
     </aside>
   </div>
-  <script>
-    (function () {
-      var links = Array.prototype.slice.call(document.querySelectorAll(".toc-side a"));
-      var heads = links.map(function (a) { return document.getElementById(a.getAttribute("href").slice(1)); });
-      function update() {
-        var i = 0;
-        heads.forEach(function (h, k) { if (h && h.getBoundingClientRect().top < 120) i = k; });
-        if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 2) i = heads.length - 1;
-        links.forEach(function (a, k) { if (k === i) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current"); });
-      }
-      var queued = false;
-      window.addEventListener("scroll", function () {
-        if (!queued) { queued = true; requestAnimationFrame(function () { queued = false; update(); }); }
-      }, { passive: true });
-      update();
-    })();
-  </script>
+  {% include toc-script.html %}
   {% else %}
   <div class="prose">
     {{ content }}

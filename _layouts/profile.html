@@ -2,6 +2,10 @@
 layout: default
 ---
 {% for g in site.data.members %}{% for x in g.members %}{% if x.name == page.member %}{% assign m = x %}{% assign group = g.group %}{% endif %}{% endfor %}{% endfor %}
+{% assign has_bio = false %}{% if page.bio and page.bio != "" %}{% assign has_bio = true %}{% endif %}
+{% assign timelines = "education:Education,experience:Experience,awards:Honors & Awards,talks:Invited Talks,teaching:Teaching,service:Professional Service" | split: "," %}
+{% assign mine = "" | split: "" %}
+{% for c in site.data.publications %}{% for pub in c.items %}{% if pub.authors contains m.name %}{% assign mine = mine | push: pub %}{% endif %}{% endfor %}{% endfor %}
 <article class="page profile">
   <header class="profile-header">
     {% include avatar.html member=m class="avatar-xl" %}
@@ -22,49 +26,62 @@ layout: default
     </div>
   </header>
 
-  <div class="prose profile-body">
-    {% if page.bio and page.bio != "" %}
-    <section>
-      <h2>Biography</h2>
-      {{ page.bio | markdownify }}
-    </section>
-    {% endif %}
+  <div class="page-with-toc">
+    <div class="profile-main">
+      <div class="prose profile-body">
+        {% if has_bio %}
+        <section>
+          <h2 id="biography">Biography</h2>
+          {{ page.bio | markdownify }}
+        </section>
+        {% endif %}
 
-    {% assign timelines = "education:Education,experience:Experience,awards:Honors & Awards,talks:Invited Talks,teaching:Teaching,service:Professional Service" | split: "," %}
-    {% for pair in timelines %}
-      {% assign kv = pair | split: ":" %}{% assign key = kv[0] %}{% assign rows = page[key] %}
-      {% if rows and rows.size > 0 %}
-      <section>
-        <h2>{{ kv[1] }}</h2>
-        <ul class="timeline">
-          {% for r in rows %}
-          <li>
-            <span class="timeline-when">{{ r.when }}</span>
-            <span class="timeline-what"><strong>{{ r.title }}</strong>{% if r.where %}<span>{{ r.where }}</span>{% endif %}</span>
-          </li>
-          {% endfor %}
-        </ul>
+        {% for pair in timelines %}
+          {% assign kv = pair | split: ":" %}{% assign key = kv[0] %}{% assign rows = page[key] %}
+          {% if rows and rows.size > 0 %}
+          <section>
+            <h2 id="{{ key }}">{{ kv[1] }}</h2>
+            <ul class="timeline">
+              {% for r in rows %}
+              <li>
+                <span class="timeline-when">{{ r.when }}</span>
+                <span class="timeline-what"><strong>{{ r.title }}</strong>{% if r.where %}<span>{{ r.where }}</span>{% endif %}</span>
+              </li>
+              {% endfor %}
+            </ul>
+          </section>
+          {% endif %}
+        {% endfor %}
+
+        {{ content }}
+      </div>
+
+      {% if mine.size > 0 %}
+      <section class="pub-section profile-pubs">
+        <h2 id="publications">Publications <span class="count">{{ mine.size }}</span></h2>
+        {% assign by_year = mine | sort: "year" | reverse | group_by: "year" %}
+        {% for y in by_year %}
+        <div class="pub-year">
+          <h3>{{ y.name }}</h3>
+          <ul class="pub-list">
+            {% for pub in y.items %}{% include publication.html pub=pub %}{% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
       </section>
       {% endif %}
-    {% endfor %}
-
-    {{ content }}
-  </div>
-
-  {% assign mine = "" | split: "" %}
-  {% for c in site.data.publications %}{% for pub in c.items %}{% if pub.authors contains m.name %}{% assign mine = mine | push: pub %}{% endif %}{% endfor %}{% endfor %}
-  {% if mine.size > 0 %}
-  <section class="pub-section profile-pubs">
-    <h2>Publications <span class="count">{{ mine.size }}</span></h2>
-    {% assign by_year = mine | sort: "year" | reverse | group_by: "year" %}
-    {% for y in by_year %}
-    <div class="pub-year">
-      <h3>{{ y.name }}</h3>
-      <ul class="pub-list">
-        {% for pub in y.items %}{% include publication.html pub=pub %}{% endfor %}
-      </ul>
     </div>
-    {% endfor %}
-  </section>
-  {% endif %}
+
+    <aside class="toc-aside">
+      <nav class="toc-side" aria-label="On this page">
+        <p class="toc-title">On this page</p>
+        <ol>
+          {% if has_bio %}<li><a href="#biography">Biography</a></li>{% endif %}
+          {% for pair in timelines %}{% assign kv = pair | split: ":" %}{% assign key = kv[0] %}{% assign rows = page[key] %}{% if rows and rows.size > 0 %}<li><a href="#{{ key }}">{{ kv[1] }}</a></li>{% endif %}{% endfor %}
+          {% if mine.size > 0 %}<li><a href="#publications">Publications</a></li>{% endif %}
+        </ol>
+      </nav>
+    </aside>
+  </div>
+  {% include toc-script.html %}
 </article>
