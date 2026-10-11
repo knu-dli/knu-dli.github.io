@@ -1,7 +1,7 @@
 <ul class="news-list">
   {% for n in include.items %}
   <li>
-    <time datetime="{{ n.date | date: '%Y-%m-%d' }}">{{ n.date | date: '%b %Y' }}</time>
+    <time datetime="{{ n.date | date: '%Y-%m-%d' }}">{% if n.label %}{{ n.label }}{% else %}{{ n.date | date: '%b %Y' }}{% endif %}</time>
     <p>{% if n.icon %}<span class="news-icon" aria-hidden="true">{{ n.icon }}</span>{% endif %}<span>{{ n.text }}</span></p>
   </li>
   {% endfor %}

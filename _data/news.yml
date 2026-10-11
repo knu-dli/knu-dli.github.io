@@ -1,11 +1,37 @@
-# Newest first. date: YYYY-MM-DD (shown as "Mon YYYY"). Quote text (it may contain colons and HTML).
-# icon: one emoji, e.g. 🎉 paper accepted · 📄 paper published · 🚀 project started · 🏆 award · 👋 new member · 🎓 graduation
+# Newest first. date: YYYY-MM-DD (shown as "Mon YYYY"; add `label:` to show something else, e.g. a year).
+# Quote text (it may contain colons and HTML).
+# icon: one emoji, e.g. 🎉 paper accepted · 🚀 project/funding · 📝 reviewing & service · ☁️ resources · 🏆 award · 👋 new member · 🎓 graduation
 - date: 2026-09-01
   icon: 🚀
   text: "A new government-funded project, <em>Development of Automation and Knowledge Accumulation Technology for Industrial Data-Driven Physics-Informed Neural Networks</em>, has started (PI: Prof. Suyeon Kim)."
 - date: 2026-08-01
   icon: 🎉
   text: "Our paper <em>Layer-wise Target Propagation: Efficient Component Attribution through Target Centric Propagation</em> has been accepted to the EMNLP 2026 main conference."
+- date: 2025-11-01
+  icon: 📝
+  text: "Prof. Seonghyeon Lee has been invited as a reviewer for <em>ACM Transactions on Software Engineering and Methodology</em> (TOSEM, Q1)."
+- date: 2025-10-01
+  icon: 📝
+  text: "Prof. Seonghyeon Lee has been invited as an area chair for the ACL Rolling Review October 2025 cycle."
+- date: 2025-08-01
+  icon: 🎉
+  text: "Our paper <em>How Diversely Can Language Models Solve Problems? Exploring the Algorithmic Diversity of Model-Generated Code</em> has been accepted to Findings of EMNLP 2025."
+- date: 2025-08-01
+  icon: 📝
+  text: "Prof. Seonghyeon Lee has been selected as a program committee member for AAAI-26."
+- date: 2025-08-01
+  icon: 🎉
+  text: "One paper has been accepted to <em>IEICE Transactions on Information and Systems</em>."
+- date: 2025-05-01
+  icon: 🎉
+  text: "Our paper <em>Verbosity-Aware Rationale Reduction: Sentence-Level Rationale Reduction for Efficient and Effective Reasoning</em> has been accepted to Findings of ACL 2025."
+- date: 2025-05-01
+  icon: ☁️
+  text: "Our lab has joined the Google Research Credits Program (May 2025 – May 2026)."
 - date: 2025-03-01
   icon: 🚀
-  text: "Our government-funded project on <em>Code-Expert Language Models and Coding Agents for AI-Assisted Software Development</em> has started (PI: Prof. Seonghyeon Lee)."
+  text: "Our project on <em>Code-Expert Language Models and Coding Agents for AI-Assisted Software Development</em> (PI: Prof. Seonghyeon Lee) has been selected for a National Research Foundation of Korea (NRF) grant funded by the Korean government (MSIT), with an acceptance rate of 9.5% (Mar. 2025 – Feb. 2030)."
+- date: 2024-01-01
+  label: "2024"
+  icon: 📚
+  text: "We published three international conference papers in 2024, at EMNLP, NAACL, and COLING."
