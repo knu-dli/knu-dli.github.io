@@ -1,10 +1,12 @@
 # Each group renders as a section on the Members page.
 # links (optional, shown as buttons in this order): scholar, dblp, semantic_scholar, acl, openreview, orcid, github, linkedin
+# profile: link to a personal page under people/ (faculty)
 # photo: put the image in assets/img/members/ and give its file name. Without a photo, initials are shown.
 - group: Faculty
   members:
     - name: Seonghyeon Lee
       role: Assistant Professor
+      profile: /people/seonghyeon-lee/
       interests: Language Modeling, Code Language Models, Evaluation, Coding Agent
       email: sh0416{at}knu.ac.kr
       cv: https://drive.google.com/file/d/1pGbDx_8SQFNRvA55GdmhsQWhsDgwXk9X/view?usp=sharing
@@ -20,6 +22,7 @@
       photo: seonghyeon-lee.jpg
     - name: Suyeon Kim
       role: Assistant Professor
+      profile: /people/suyeon-kim/
       interests: Robust & Explainable AI × Cross-domain Applications (Graph, Biomedical, Time-series, PINNs)
       email: kimsu55{at}knu.ac.kr
       homepage: https://kimsu55.github.io/

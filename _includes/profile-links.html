@@ -1,0 +1,7 @@
+{% assign m = include.member %}
+{% if m.links %}
+<p class="profile-links">
+  {% assign labels = "scholar:Google Scholar,dblp:DBLP,semantic_scholar:Semantic Scholar,acl:ACL Anthology,openreview:OpenReview,orcid:ORCID,github:GitHub,linkedin:LinkedIn" | split: "," %}
+  {% for pair in labels %}{% assign kv = pair | split: ":" %}{% assign key = kv[0] %}{% assign url = m.links[key] %}{% if url %}<a href="{{ url }}" target="_blank" rel="noopener">{{ kv[1] }}</a>{% endif %}{% endfor %}
+</p>
+{% endif %}

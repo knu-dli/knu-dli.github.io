@@ -1,0 +1,7 @@
+{% assign m = include.member %}
+{% if m.photo %}
+<img class="avatar{% if include.class %} {{ include.class }}{% endif %}" src="{{ '/assets/img/members/' | append: m.photo | relative_url }}" alt="{{ m.name }}" loading="lazy">
+{% else %}
+{% assign parts = m.name | split: ' ' %}
+<div class="avatar avatar-initials{% if include.class %} {{ include.class }}{% endif %}" aria-hidden="true">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</div>
+{% endif %}
