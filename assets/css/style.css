@@ -416,9 +416,21 @@ img { max-width: 100%; display: block; }
 .member:hover .avatar { transform: scale(1.04); }
 .pub { transition: background-color 160ms ease; border-radius: 8px; }
 .pub:hover { background: var(--bg-soft); }
+.nt-dot { transition: transform 200ms ease, border-color 200ms ease, box-shadow 200ms ease; }
+.nt-body { border-radius: 10px; margin: -6px 0 -6px -8px; padding: 8px 10px 8px 8px; transition: background-color 180ms ease, transform 180ms ease; }
+.news-timeline li:hover .nt-dot {
+  transform: scale(1.12); border-color: var(--accent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 15%, transparent);
+}
+.news-timeline li:hover .nt-body { background: var(--bg-soft); transform: translateX(4px); }
+.news-list li { transition: background-color 160ms ease, transform 160ms ease; border-radius: 8px; }
+.news-list li:hover { background: var(--bg-soft); transform: translateX(4px); }
+.news-list li:hover .news-icon { display: inline-block; transform: scale(1.15); }
+.news-icon { transition: transform 180ms ease; }
 @media (prefers-reduced-motion: reduce) {
-  .card, .project, .member, .glance-item, .contact-card, .member .avatar, .pub { transition: none; }
-  .card:hover, .project:hover, .member:hover, .glance-item:hover, .contact-card:hover, .member:hover .avatar { transform: none; }
+  .card, .project, .member, .glance-item, .contact-card, .member .avatar, .pub, .nt-dot, .nt-body, .news-list li, .news-icon { transition: none; }
+  .card:hover, .project:hover, .member:hover, .glance-item:hover, .contact-card:hover, .member:hover .avatar,
+  .news-timeline li:hover .nt-dot, .news-timeline li:hover .nt-body, .news-list li:hover, .news-list li:hover .news-icon { transform: none; }
 }
 
 /* ---------- footer ---------- */
