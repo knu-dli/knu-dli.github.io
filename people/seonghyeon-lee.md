@@ -37,7 +37,18 @@ awards:
 talks:
   - { when: "May 14, 2025", title: "Generative Code Language Models", where: "Seminar, Pukyong National University" }
   - { when: "Jun. 17, 2024", title: "Evaluating Generative Language Models", where: "EECS Seminar, DGIST" }
-teaching: []
+# Kyungpook National University, from the KNU course catalog (knuin.knu.ac.kr)
+teaching:
+  - { when: "Fall 2026", title: "Natural Language Processing", where: "자연언어처리 · Graduate · COME0746 · Taught in English" }
+  - { when: "Fall 2026", title: "Introduction to Reinforcement Learning", where: "강화학습개론 · Undergraduate · CAIB0216" }
+  - { when: "Spring 2026", title: "Reinforcement Learning", where: "강화학습 · Graduate · ARIN0710 · Taught in English" }
+  - { when: "Spring 2026", title: "Fundamentals of Data Science", where: "데이터과학기초 · Undergraduate · ITEC0419" }
+  - { when: "Spring 2026", title: "Problem-Based Engineering Practicum (Computer Science)", where: "문제해결기반 공학연수실습(컴퓨터학) · Undergraduate · COMP0460" }
+  - { when: "Fall 2025", title: "Introduction to Natural Language Processing", where: "자연어처리개론 · Undergraduate · CAIB0211 · Taught in English" }
+  - { when: "Fall 2025", title: "Introduction to Reinforcement Learning", where: "강화학습개론 · Undergraduate · CAIB0216 · Taught in English" }
+  - { when: "Fall 2025", title: "Problem-Based Engineering Practicum (Computer Science)", where: "문제해결기반 공학연수실습(컴퓨터학) · Undergraduate · COMP0460" }
+  - { when: "Spring 2025", title: "AI Convergence Applications", where: "인공지능융합응용 · Graduate · GRAD0732 · Taught in English" }
+  - { when: "Spring 2025", title: "Open Source Programming", where: "오픈소스프로그래밍 · Undergraduate · GLSO0215" }
 service:
   - { when: "Sep. 2023 – Present", title: "Reviewer", where: "ACL Rolling Review" }
   - { when: "Apr. 2024", title: "Reviewer", where: "Korea Software Congress (KSC)" }
