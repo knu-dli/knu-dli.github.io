@@ -231,7 +231,8 @@ img { max-width: 100%; display: block; }
   width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center;
   font-weight: 700; font-size: 15px; background: var(--accent-soft); color: var(--accent);
 }
-.principles strong, .steps strong, .checklist strong { display: block; color: var(--text); margin-bottom: 2px; }
+.principles li > strong, .steps li > strong, .checklist li > strong { display: block; color: var(--text); margin-bottom: 2px; }
+.principles span strong, .steps span strong, .checklist span strong { color: var(--text); }
 .principles span, .steps span, .checklist span { color: var(--text-muted); }
 
 .checklist { list-style: none; padding: 0 !important; margin: 0 0 16px; }
