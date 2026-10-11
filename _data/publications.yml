@@ -39,6 +39,7 @@
       venue_detail: "Findings of the Association for Computational Linguistics: EMNLP 2025"
       links:
         paper: https://aclanthology.org/2025.findings-emnlp.10/
+        arxiv: https://arxiv.org/abs/2503.00691
     - year: 2025
       title: "Verbosity-Aware Rationale Reduction: Sentence-Level Rationale Reduction for Efficient and Effective Reasoning"
       authors: Joonwon Jang, Jaehee Kim, Wongin Kweon, Seonghyeon Lee, Hwanjo Yu
@@ -67,6 +68,7 @@
       venue_detail: "Findings of the Association for Computational Linguistics: NAACL 2024"
       links:
         paper: https://aclanthology.org/2024.findings-naacl.181/
+        arxiv: https://arxiv.org/abs/2403.10575
     - year: 2024
       title: "KoDialogBench: Evaluating Conversational Understanding of Language Models with Korean Dialogue Benchmark"
       authors: "Seonghyeon Lee*, Seongbo Jang*, Hwanjo Yu"
@@ -75,6 +77,7 @@
       venue_detail: Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation
       links:
         paper: https://aclanthology.org/2024.lrec-main.865/
+        arxiv: https://arxiv.org/abs/2402.17377
     - year: 2024
       title: Learning Discriminative Dynamics with Label Corruption for Noisy Label Detection
       authors: Suyeon Kim, Dongha Lee, SeongKu Kang, Sukang Chae, Sanghwan Jang, Hwanjo Yu
@@ -89,6 +92,7 @@
       venue_detail: Proceedings of the 37th AAAI Conference on Artificial Intelligence
       links:
         paper: https://doi.org/10.1609/aaai.v37i7.26000
+        arxiv: https://arxiv.org/abs/2302.13693
     - year: 2022
       title: Topic Taxonomy Expansion via Hierarchy-Aware Topic Phrase Generation
       authors: Dongha Lee, Jiaming Shen, Seonghyeon Lee, Susik Yoon, Hwanjo Yu, Jiawei Han
@@ -96,6 +100,7 @@
       venue_detail: "Findings of the Association for Computational Linguistics: EMNLP 2022"
       links:
         paper: https://aclanthology.org/2022.findings-emnlp.122/
+        arxiv: https://arxiv.org/abs/2211.01981
     - year: 2022
       title: Toward Interpretable Semantic Textual Similarity via Optimal Transport-based Contrastive Sentence Learning
       authors: Seonghyeon Lee, Dongha Lee, Seongbo Jang, Hwanjo Yu
@@ -103,6 +108,7 @@
       venue_detail: "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
       links:
         paper: https://aclanthology.org/2022.acl-long.412/
+        arxiv: https://arxiv.org/abs/2202.13196
     - year: 2021
       title: Learnable Structural Semantic Readout for Graph Classification
       authors: Dongha Lee, Suyeon Kim, Seonghyeon Lee, Chanyoung Park, Hwanjo Yu
@@ -110,6 +116,7 @@
       venue_detail: 2021 IEEE International Conference on Data Mining
       links:
         paper: https://doi.org/10.1109/ICDM51629.2021.00142
+        arxiv: https://arxiv.org/abs/2111.11523
     - year: 2021
       title: Learnable Dynamic Temporal Pooling for Time Series Classification
       authors: Dongha Lee, Seonghyeon Lee, Hwanjo Yu
@@ -117,6 +124,7 @@
       venue_detail: Proceedings of the 35th AAAI Conference on Artificial Intelligence
       links:
         paper: https://doi.org/10.1609/aaai.v35i9.17008
+        arxiv: https://arxiv.org/abs/2104.02577
     - year: 2021
       title: "OoMMix: Out-of-manifold Regularization in Contextual Embedding Space for Text Classification"
       authors: Seonghyeon Lee, Dongha Lee, Hwanjo Yu
@@ -124,6 +132,7 @@
       venue_detail: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
       links:
         paper: https://aclanthology.org/2021.acl-long.49/
+        arxiv: https://arxiv.org/abs/2105.06750
     - year: 2019
       title: "BHIN2vec: Balancing the Type of Relation in Heterogeneous Information Network"
       authors: Seonghyeon Lee, Chanyoung Park, Hwanjo Yu
@@ -131,6 +140,7 @@
       venue_detail: Proceedings of the 28th ACM International Conference on Information and Knowledge Management
       links:
         paper: https://doi.org/10.1145/3357384.3357893
+        arxiv: https://arxiv.org/abs/1912.08925
 
 - category: International Journal
   id: journal
@@ -167,4 +177,9 @@
 
 - category: Domestic Conference
   id: domestic-conference
-  items: []
+  items:
+    - year: 2019
+      title: Attention Mechanism for Sequential Recommendation
+      authors: Seonghyeon Lee, Hwanjo Yu
+      venue: KCC 2019
+      venue_detail: Korea Computer Congress 2019

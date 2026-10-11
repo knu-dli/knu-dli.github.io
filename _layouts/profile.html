@@ -30,7 +30,7 @@ layout: default
     </section>
     {% endif %}
 
-    {% assign timelines = "education:Education,experience:Experience,awards:Honors & Awards,teaching:Teaching,service:Professional Service" | split: "," %}
+    {% assign timelines = "education:Education,experience:Experience,awards:Honors & Awards,talks:Invited Talks,teaching:Teaching,service:Professional Service" | split: "," %}
     {% for pair in timelines %}
       {% assign kv = pair | split: ":" %}{% assign key = kv[0] %}{% assign rows = page[key] %}
       {% if rows and rows.size > 0 %}
