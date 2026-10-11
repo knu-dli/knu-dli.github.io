@@ -64,7 +64,7 @@ This keeps things transparent and predictable. If you are looking for a result-d
 
 **Your desk.** Every research student is assigned a desk in the student lab.
 
-**Core hours: weekdays 1–4 pm.** The professor regularly drops by the student lab for discussions or calls students to the office, so we recommend being in the lab during these hours. They are a minimum for smooth discussion, not a time sheet; outside them, come and go as you like.
+**Core hours: weekdays 1–4 pm.** The professor regularly drops by the student lab for discussions or calls students to the office, so please be in the lab during these hours. If you have a class at that time, go to class; you do not need to ask. The point is simply to be around during regular working hours so that we can talk when needed. This is not a time sheet; outside these hours, come and go as you like.
 
 **Probation: about two months.** The first two months or so are a probation period, which may vary case by case. During this time we look broadly at your commitment to the lab and whether you can sustain research, in terms of passion and ability.
 
