@@ -9,7 +9,6 @@ permalink: /gks/
 
 For prospective international applicants who wish to join our laboratory through the GKS scholarship program, I only consider applicants who meet **all** of the following criteria:
 
-- **Prior collaboration:** you have previously co-authored and published an SCI(E)-indexed journal paper with me.
 - **Academic record:** a cumulative GPA (CGPA) of **3.9 or higher** (on a 4.0 scale).
 - **First-author NLP publication:** you have published, as the **first author**, a paper on an NLP-related topic in an NLP-related journal or conference.
 
