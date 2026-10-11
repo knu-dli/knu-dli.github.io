@@ -79,7 +79,7 @@ For conferences, only **regular long papers** count; demo, workshop, short, and 
   </li>
   <li>
     <strong>Send an email.</strong>
-    <span>Write to <strong>sh0416{at}knu.ac.kr</strong> with a brief self-introduction and your academic background.</span>
+    <span>Write to <strong>sh0416{at}knu.ac.kr</strong> with a brief self-introduction and your academic background. In your email, briefly tell us which of the three principles in <a href="#how-we-work">How We Work</a> matters most to you, and why. AI tools are welcome in your research, but please read this page yourself.</span>
   </li>
   <li>
     <strong>Start with a research project.</strong>
