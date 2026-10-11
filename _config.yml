@@ -13,6 +13,10 @@ lang: en
 baseurl: ""
 url: "https://knu-dli.github.io"
 
+# Home page image shown to the right of the lab name. Replace the file (or this path) to change it.
+hero_image: /assets/img/hero/hero.jpg
+hero_image_alt: The lab's water-drop mascot surrounded by speech bubbles of code and text and a molecule-like network
+
 markdown: kramdown
 permalink: pretty
 plugins:

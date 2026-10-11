@@ -2,14 +2,21 @@
 layout: default
 title: Home
 ---
-<section class="hero">
-  <p class="eyebrow">Kyungpook National University · School of CSE</p>
-  <h1>Data &amp; Language<br>Intelligence Lab</h1>
-  <p class="lead">We build generative language models that reason over code, use tools, and work as reliable coding agents — and we study what makes LLMs behave the way they do.</p>
-  <div class="hero-actions">
-    <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join the lab</a>
-    <a class="btn" href="{{ '/publications/' | relative_url }}">Publications</a>
+<section class="hero{% if site.hero_image %} hero-split{% endif %}">
+  <div class="hero-text">
+    <p class="eyebrow">Kyungpook National University · School of CSE</p>
+    <h1>Data &amp; Language<br>Intelligence Lab</h1>
+    <p class="lead">We build generative language models that reason over code, use tools, and work as reliable coding agents — and we study what makes LLMs behave the way they do.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join the lab</a>
+      <a class="btn" href="{{ '/publications/' | relative_url }}">Publications</a>
+    </div>
   </div>
+  {% if site.hero_image %}
+  <figure class="hero-visual">
+    <img src="{{ site.hero_image | relative_url }}" alt="{{ site.hero_image_alt }}" width="1200" height="688" fetchpriority="high">
+  </figure>
+  {% endif %}
 </section>
 
 <aside class="notice" aria-label="Recruiting">
