@@ -303,6 +303,24 @@ img { max-width: 100%; display: block; }
 .news-list em { color: var(--text); font-style: normal; font-weight: 600; }
 @media (max-width: 640px) { .news-list li { grid-template-columns: 1fr; gap: 2px; } }
 
+.news-year + .news-year { margin-top: 40px; }
+.news-year h2 { font-size: 24px; margin: 0 0 12px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+.news-year h2 .count, .toc-count { font-size: 13px; font-weight: 600; color: var(--text-faint); margin-left: 4px; }
+.news-timeline { position: relative; list-style: none; margin: 0; padding: 0; }
+.news-timeline::before {
+  content: ""; position: absolute; left: 17px; top: 18px; bottom: 18px; width: 2px; background: var(--border);
+}
+.news-timeline li { position: relative; display: grid; grid-template-columns: 36px 1fr; gap: 16px; padding: 12px 0; }
+.nt-dot {
+  position: relative; z-index: 1; width: 36px; height: 36px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 17px; line-height: 1;
+  background: var(--surface); border: 2px solid var(--border);
+}
+.nt-body { padding-top: 2px; min-width: 0; }
+.nt-body time { display: block; font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); margin-bottom: 2px; }
+.nt-body p { margin: 0; color: var(--text-muted); }
+.nt-body em { color: var(--text); font-style: normal; font-weight: 600; }
+
 /* ---------- members ---------- */
 .member-group { margin-bottom: 48px; }
 .member-group h2 { font-size: 20px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
