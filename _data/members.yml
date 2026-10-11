@@ -36,16 +36,15 @@
       homepage: https://micolak0115.github.io
       photo:
 
-- group: M.S. & Ph.D. Integrated Students
+- group: Graduate Students
   members:
     - name: Taehyeon Han
+      role: M.S. & Ph.D. Integrated Student
       interests: LLM Agents, Code Language Models
       email: gksxogus1946{at}knu.ac.kr
       photo: taehyeon-han.jpg
-
-- group: B.S. & M.S. Integrated Students
-  members:
     - name: Yoonho Choi
+      role: B.S. & M.S. Integrated Student
       interests: LLM Agents
       email: yoonhoc{at}knu.ac.kr
       photo: yoonho-choi.jpg
