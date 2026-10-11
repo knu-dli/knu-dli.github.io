@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Monthly Meeting Guide
+title: Research Meeting Guide
 eyebrow: Join Us · For Lab Members
 permalink: /join/meetings/
 toc:
@@ -8,7 +8,7 @@ toc:
   - { id: before-the-meeting, title: Before the Meeting }
   - { id: during-the-meeting, title: During the Meeting }
   - { id: agenda-template, title: Agenda Template }
-lead: Monthly meetings are where we look at concrete progress and make decisions that move your paper forward. A well-prepared hour gets you focused, useful feedback.
+lead: The weekly 1:1 meeting is where we check progress and give feedback that moves your paper forward. A little preparation each week goes a long way.
 ---
 
 ## The Basics {#basics}
@@ -16,38 +16,38 @@ lead: Monthly meetings are where we look at concrete progress and make decisions
 <div class="glance glance-3">
   <div class="glance-item">
     <p class="glance-label">How often</p>
-    <p><strong>Once a month</strong> with the supervising professor</p>
+    <p><strong>Every week</strong>, 1:1 with the professor</p>
   </div>
   <div class="glance-item">
-    <p class="glance-label">How long</p>
-    <p><strong>One hour</strong>, strictly</p>
+    <p class="glance-label">What for</p>
+    <p>Check <strong>progress</strong> and get <strong>feedback</strong> on your work</p>
   </div>
   <div class="glance-item">
-    <p class="glance-label">Scheduling</p>
-    <p><strong>You</strong> propose a time in advance via <strong>Google Calendar</strong></p>
+    <p class="glance-label">In between</p>
+    <p>Ask for an <strong>extra meeting</strong> whenever you need a discussion</p>
   </div>
 </div>
 
-The lab does not run on ad hoc or reminder-based scheduling: proposing meeting times and making sure the meeting is on the calendar is your responsibility. The one-hour limit is intentional; it keeps the discussion on decisions that directly advance the paper.
+The weekly meeting covers everything you are working on: paper reading, seminar preparation, and experiments. You do not have to wait for it, though; if something needs discussion, ask for an additional meeting at any time.
 
 ## Before the Meeting {#before-the-meeting}
 
 <ul class="checklist">
   <li>
-    <strong>Paper status summary.</strong>
-    <span>What has been completed since the last meeting, and what is still unresolved. The meeting starts with this.</span>
+    <strong>Progress summary.</strong>
+    <span>What you have done since last week, and what is still unresolved. The meeting starts with this.</span>
   </li>
   <li>
-    <strong>Several agenda items.</strong>
-    <span>Each one should directly advance the paper: experimental results, methodological choices, scope refinement, or submission strategy.</span>
+    <strong>A few agenda items.</strong>
+    <span>Each one should move the research forward: experimental results, methodological choices, scope, or submission plans.</span>
   </li>
   <li>
-    <strong>Anticipated feedback and your next steps, for each item.</strong>
-    <span>Think through what the professor is likely to say, beyond the obvious, and what you would do in each case. This shows you have already considered several directions and are ready to decide.</span>
+    <strong>Your take on each item.</strong>
+    <span>Think through the feedback you expect, beyond the obvious, and what you would do next in each case. This shows you have already considered several directions and are ready to decide.</span>
   </li>
   <li>
     <strong>Timeline check.</strong>
-    <span>Does current progress support the planned submission date? If a delay is likely, how does it affect the plan, and what can realistically be done by each milestone?</span>
+    <span>Does current progress support your planned submission? If a delay is likely, how does it affect the plan?</span>
   </li>
 </ul>
 
@@ -55,21 +55,21 @@ The lab does not run on ad hoc or reminder-based scheduling: proposing meeting t
 
 ## During the Meeting {#during-the-meeting}
 
-Keep the hour focused on decisions. Skip long background recaps, unfocused explanations, and speculative discussion without a clear direction. Meetings without clear progress, a structured agenda, or a forward-looking plan may be shortened or postponed.
+Keep the meeting focused on decisions. Skip long background recaps and unfocused explanations. If you used AI to produce results or code you are presenting, make sure you have verified them and can explain them yourself.
 
 ## Agenda Template {#agenda-template}
 
 Copy this into your meeting notes and fill it in before each meeting.
 
 ```text
-1. Paper status
-   - Done since last meeting:
+1. Progress since last week
+   - Done:
    - Still unresolved:
 
 2. Agenda items (repeat for each)
    - Topic:
    - Evidence / results:
-   - Anticipated feedback:
+   - Expected feedback:
    - My proposed next step:
 
 3. Timeline
