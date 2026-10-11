@@ -8,8 +8,8 @@ permalink: /members/
   <h2>{{ g.group }}</h2>
   <div class="member-grid{% if forloop.first %} member-grid-lg{% endif %}">
     {% for m in g.members %}
-    <article class="member">
-      {% if m.profile %}<a class="avatar-link" href="{{ m.profile | relative_url }}" tabindex="-1">{% include avatar.html member=m %}</a>{% else %}{% include avatar.html member=m %}{% endif %}
+    <article class="member{% if m.profile %} has-profile{% endif %}">
+      {% include avatar.html member=m %}
       <div class="member-info">
         <h3>{% if m.profile %}<a href="{{ m.profile | relative_url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</h3>
         {% if m.role %}<p class="member-role">{{ m.role }}</p>{% endif %}
