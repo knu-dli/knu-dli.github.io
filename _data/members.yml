@@ -28,15 +28,7 @@
       homepage: https://kimsu55.github.io/
       photo:
 
-- group: Postdoctoral Researchers
-  members:
-    - name: Kyungwhan An
-      interests: AI4Science, Bioinformatics, Multiomics, Drug Discovery
-      email: micolak0115{at}postech.ac.kr / kyungwhan1998{at}gmail.com
-      homepage: https://micolak0115.github.io
-      photo:
-
-- group: Graduate Students
+- group: Students
   members:
     - name: Taehyeon Han
       role: M.S. & Ph.D. Integrated Student
@@ -49,8 +41,22 @@
       email: yoonhoc{at}knu.ac.kr
       photo: yoonho-choi.jpg
 
-- group: Undergraduate Researchers
+# Affiliates: people who research with the lab but are not its degree students
+# (visiting researchers, research staff, undergraduate researchers). Add "· Institution" for external members.
+- group: Affiliates
   members:
+    - name: Kyungwhan An
+      role: Visiting Postdoctoral Researcher · POSTECH
+      interests: AI4Science, Bioinformatics, Multiomics, Drug Discovery
+      email: micolak0115{at}postech.ac.kr / kyungwhan1998{at}gmail.com
+      homepage: https://micolak0115.github.io
+      photo: kyungwhan-an.jpg
+    - name: Sukyeon Ha
+      role: Researcher
+      interests: Robust Evaluation, Graph Learning
+      email: sukyeon17{at}knu.ac.kr
+      photo: sukyeon-ha.jpg
     - name: Hwanhui Choi
+      role: Undergraduate Researcher
       interests:
       photo: hwanhui-choi.jpg
