@@ -11,7 +11,7 @@ lang: en
 # For a project site (https://<user>.github.io/<repo>/) set baseurl to "/<repo>".
 # For an organization/user site (https://<name>.github.io/) or a custom domain, leave it empty.
 baseurl: ""
-url: "https://knu-dli.github.io"
+url: "https://dli.knu.ac.kr"
 
 # Home page image shown to the right of the lab name. Replace the file (or this path) to change it.
 hero_image: /assets/img/hero/hero.jpg
