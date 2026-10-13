@@ -17,6 +17,10 @@ url: "https://dli.knu.ac.kr"
 hero_image: /assets/img/hero/hero.jpg
 hero_image_alt: The lab's water-drop mascot surrounded by speech bubbles of code and text and a molecule-like network
 
+# Google Search Console ownership (rendered as a meta tag by jekyll-seo-tag)
+webmaster_verifications:
+  google: _tUEsdMBEyrosTzlMNJlnJ-qS-Qy3R7XhoSW9HcW-Es
+
 markdown: kramdown
 permalink: pretty
 plugins:
