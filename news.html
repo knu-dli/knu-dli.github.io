@@ -15,11 +15,11 @@ permalink: /news/
         <h2 id="y{{ y.name }}">{{ y.name }} <span class="count">{{ y.items.size }}</span></h2>
         <ol class="news-timeline">
           {% for n in y.items %}
-          <li>
+          <li{% if n.post %} class="has-post"{% endif %}>
             <span class="nt-dot" aria-hidden="true">{{ n.icon | default: "•" }}</span>
             <div class="nt-body">
               {% unless n.label %}<time datetime="{{ n.date | date: '%Y-%m' }}">{{ n.date | date: '%B' }}</time>{% endunless %}
-              <p>{{ n.text }}</p>
+              <p>{{ n.text }}{% if n.post %} <a class="news-more" href="{{ '/news/' | append: n.post | append: '/' | relative_url }}">Read more<span class="sr-only"> about this news</span> →</a>{% endif %}</p>
             </div>
           </li>
           {% endfor %}

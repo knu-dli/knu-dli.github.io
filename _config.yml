@@ -23,6 +23,13 @@ webmaster_verifications:
 
 markdown: kramdown
 permalink: pretty
+
+# News posts: one Markdown file per post in _news/, served at /news/<file-name>/.
+# Link a news item to its post with `post: <file-name>` in _data/news.yml.
+collections:
+  news:
+    output: true
+    permalink: /news/:name/
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -33,6 +40,12 @@ defaults:
       path: ""
     values:
       image: /assets/img/og-image.jpg
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: news-post
+      nav_parent: /news/
 twitter:
   card: summary_large_image
 

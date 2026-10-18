@@ -1,8 +1,8 @@
 <ul class="news-list">
   {% for n in include.items %}
-  <li>
+  <li{% if n.post %} class="has-post"{% endif %}>
     <time datetime="{{ n.date | date: '%Y-%m-%d' }}">{% if n.label %}{{ n.label }}{% else %}{{ n.date | date: '%b %Y' }}{% endif %}</time>
-    <p>{% if n.icon %}<span class="news-icon" aria-hidden="true">{{ n.icon }}</span>{% endif %}<span>{{ n.text }}</span></p>
+    <p>{% if n.icon %}<span class="news-icon" aria-hidden="true">{{ n.icon }}</span>{% endif %}<span>{{ n.text }}{% if n.post %} <a class="news-more" href="{{ '/news/' | append: n.post | append: '/' | relative_url }}">Read more<span class="sr-only"> about this news</span> →</a>{% endif %}</span></p>
   </li>
   {% endfor %}
 </ul>

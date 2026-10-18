@@ -332,6 +332,23 @@ img { max-width: 100%; display: block; }
 .nt-body p { margin: 0; color: var(--text-muted); }
 .nt-body em { color: var(--text); font-style: normal; font-weight: 600; }
 
+/* news items with a post: the whole card links to it */
+.has-post { position: relative; cursor: pointer; }
+.news-more { font-weight: 600; white-space: nowrap; }
+.news-more::after { content: ""; position: absolute; inset: 0; border-radius: 8px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* news post page */
+.news-post .eyebrow a { color: inherit; }
+.news-post-icon { font-size: 0.85em; }
+.news-file { margin: 32px 0 0; max-width: 880px; }
+.news-file object, .news-file img {
+  display: block; width: 100%; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-soft);
+}
+.news-file object { aspect-ratio: 4 / 3; }
+.news-file figcaption { margin-top: 10px; font-size: 14px; color: var(--text-faint); }
+.news-back { margin-top: 40px; font-weight: 600; }
+
 /* ---------- members ---------- */
 .member-group { margin-bottom: 48px; }
 .member-group h2 { font-size: 20px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% assign item = site.data.news | where: "post", page.slug | first %}
+<article class="page news-post">
+  <header class="page-header">
+    <p class="eyebrow"><a href="{{ '/news/' | relative_url }}">News</a> · <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%B %Y' }}</time></p>
+    <h1>{% if item.icon %}<span class="news-post-icon" aria-hidden="true">{{ item.icon }}</span> {% endif %}{{ page.title }}</h1>
+    {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+  </header>
+  <div class="prose">
+    {{ content }}
+  </div>
+  {% for f in page.files %}
+  {% assign ext = f.path | split: "." | last | downcase %}
+  <figure class="news-file">
+    {% if f.preview %}
+    <a href="{{ f.path | relative_url }}" target="_blank" rel="noopener"><img src="{{ f.preview | relative_url }}" alt="{{ f.title }}" loading="lazy"></a>
+    {% elsif ext == "pdf" %}
+    <object data="{{ f.path | relative_url }}#view=FitH" type="application/pdf" aria-label="{{ f.title }}">
+      <p><a href="{{ f.path | relative_url }}">Open {{ f.title }} (PDF)</a></p>
+    </object>
+    {% else %}
+    <img src="{{ f.path | relative_url }}" alt="{{ f.title }}" loading="lazy">
+    {% endif %}
+    <figcaption>{{ f.title }} · <a href="{{ f.path | relative_url }}" target="_blank" rel="noopener">{% if ext == "pdf" %}Download PDF{% else %}Open in new tab{% endif %} ↗</a></figcaption>
+  </figure>
+  {% endfor %}
+  <p class="news-back"><a href="{{ '/news/' | relative_url }}">← All news</a></p>
+</article>
