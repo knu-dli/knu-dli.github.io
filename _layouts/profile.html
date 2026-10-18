@@ -45,7 +45,7 @@ layout: default
               {% for r in rows %}
               <li>
                 <span class="timeline-when">{{ r.when }}</span>
-                <span class="timeline-what"><strong>{{ r.title }}</strong>{% if r.where %}<span>{{ r.where }}</span>{% endif %}{% if r.tags %}<span class="timeline-tags">{% for t in r.tags %}<span class="tag">{{ t }}</span>{% endfor %}</span>{% endif %}</span>
+                <span class="timeline-what"><strong>{% if r.url %}<a href="{{ r.url | relative_url }}">{{ r.title }}</a>{% else %}{{ r.title }}{% endif %}</strong>{% if r.where %}<span>{{ r.where }}</span>{% endif %}{% if r.tags %}<span class="timeline-tags">{% for t in r.tags %}<span class="tag">{{ t }}</span>{% endfor %}</span>{% endif %}</span>
               </li>
               {% endfor %}
             </ul>

@@ -18,7 +18,7 @@ bio: >-
   [Prof. Hwanjo Yu](https://sites.google.com/view/postechdi/member/faculty). Before joining KNU,
   I was a postdoctoral researcher at the POSTECH Data Intelligence Lab and a machine learning
   researcher at ScatterLab.
-# Each row: { when: "...", title: "...", where: "...", tags: [optional, chips] }
+# Each row: { when: "...", title: "...", where: "...", tags: [optional, chips], url: optional link for the title }
 education:
   - { when: "Mar. 2018 – Aug. 2024", title: "Ph.D. in Computer Science and Engineering", where: "POSTECH · Thesis: Leveraging Relational Knowledge with Pretrained Language Models · Advisor: Prof. Hwanjo Yu" }
   - { when: "Mar. 2014 – Feb. 2018", title: "B.S. in Computer Science and Engineering, Summa Cum Laude", where: "POSTECH" }
@@ -30,6 +30,7 @@ experience:
   - { when: "Jul. – Aug. 2017", title: "Intern", where: "NAVER" }
   - { when: "Jul. – Aug. 2016", title: "Intern", where: "Kakao" }
 awards:
+  - { when: "Oct. 2026", title: "Outstanding Reviewer", where: "EMNLP 2026 (ACL Rolling Review May 2026 cycle) · 231 of 10,636 reviewers (2.17%)", url: /news/arr-2026-may-outstanding-reviewer/ }
   - { when: "Sep. 2022", title: "NAVER Ph.D. Fellowship" }
   - { when: "Jun. 2022", title: "Best Poster Award (3rd)", where: "POSTECH–NAVER AI Day" }
   - { when: "Jun. 2017", title: "3rd Prize", where: "POSTECH Programming Contest (PPC)" }
