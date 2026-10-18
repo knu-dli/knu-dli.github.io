@@ -1,10 +1,12 @@
 # Projects are listed in this order on the Projects page; ongoing ones also appear on the home page.
+# figure: name of an inline SVG in _includes/project-figures/ (or image: path to a picture) shown on the Projects page.
 # pi: principal investigator. co_investigators: list of lab faculty participating as co-investigators.
 - title: Code-Expert Language Models and Coding Agents for AI-Assisted Software Development
   title_ko: 인공지능 보조 소프트웨어 개발을 위한 코드 전문가 언어모델 및 코딩 에이전트 개발
   period: Mar. 2025 – Feb. 2030
   status: ongoing
   funding: Government-funded
+  figure: code-agents
   pi: Prof. Seonghyeon Lee
   description: >-
     Code-expert language models and coding agents that understand and operate over entire code
@@ -17,6 +19,7 @@
   period: Sep. 2026 – Aug. 2029
   status: ongoing
   funding: Government-funded
+  figure: pinn
   pi: Prof. Suyeon Kim
   co_investigators:
     - Prof. Seonghyeon Lee

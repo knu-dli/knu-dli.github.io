@@ -3,4 +3,6 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-{% for p in site.data.projects %}{% include project.html project=p %}{% endfor %}
+<div class="project-features">
+{% for p in site.data.projects %}{% include project-feature.html project=p %}{% endfor %}
+</div>

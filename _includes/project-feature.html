@@ -1,0 +1,24 @@
+{% assign p = include.project %}
+<article class="project-feature{% unless p.figure or p.image %} no-figure{% endunless %}">
+  {% if p.figure %}
+  <div class="project-figure">{% include project-figures/{{ p.figure }}.svg %}</div>
+  {% elsif p.image %}
+  <div class="project-figure"><img src="{{ p.image | relative_url }}" alt="{{ p.image_alt | default: p.title }}" loading="lazy"></div>
+  {% endif %}
+  <div class="project-feature-body">
+    <div class="project-meta">
+      {% if p.status == 'ongoing' %}<span class="badge">Ongoing</span>{% endif %}
+      {% if p.funding %}<span class="badge badge-muted">{{ p.funding }}</span>{% endif %}
+      {% if p.period %}<span>{{ p.period }}</span>{% endif %}
+    </div>
+    <h3>{{ p.title }}</h3>
+    {% if p.title_ko %}<p class="project-ko">{{ p.title_ko }}</p>{% endif %}
+    {% if p.description %}<p>{{ p.description }}</p>{% endif %}
+    {% if p.pi or p.co_investigators %}
+    <dl class="project-people">
+      {% if p.pi %}<div><dt>Principal Investigator</dt><dd>{{ p.pi }}</dd></div>{% endif %}
+      {% if p.co_investigators %}<div><dt>Co-Investigator{% if p.co_investigators.size > 1 %}s{% endif %}</dt><dd>{{ p.co_investigators | join: ", " }}</dd></div>{% endif %}
+    </dl>
+    {% endif %}
+  </div>
+</article>
