@@ -1,7 +1,7 @@
 ---
 title: Outstanding Reviewer Award, EMNLP 2026
 description: Prof. Seonghyeon Lee was selected as one of 231 Outstanding Reviewers out of 10,636 reviewers (2.17%) in the ACL Rolling Review May 2026 cycle (EMNLP 2026).
-lead: Prof. Seonghyeon Lee has been recognized as an Outstanding Reviewer for EMNLP 2026, reviewed through the ACL Rolling Review (ARR) May 2026 cycle.
+lead: '<a href="/people/seonghyeon-lee/">Prof. Seonghyeon Lee</a> has been recognized as an Outstanding Reviewer for EMNLP 2026, reviewed through the ACL Rolling Review (ARR) May 2026 cycle.'
 # Put attachments in assets/news/ and list them here; they are shown below the text.
 # preview: optional image shown in place of an inline PDF (renders on every device).
 files:
