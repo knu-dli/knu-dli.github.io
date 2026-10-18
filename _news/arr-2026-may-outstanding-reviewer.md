@@ -10,3 +10,8 @@ files:
 ---
 ACL Rolling Review (ARR) is the centralized peer-review system of the Association for Computational Linguistics, serving venues such as ACL, EMNLP, and NAACL.
 Among the **10,636 reviewers** of the May 2026 cycle, only **231** were selected as Outstanding Reviewers for the quality of their reviews.
+
+### Acknowledgments
+
+Many thanks to our students [Taehyeon Han]({{ '/members/' | relative_url }}) and [Yoonho Choi]({{ '/members/' | relative_url }}), who served as secondary reviewers in this cycle.
+Their careful reading and thoughtful comments made an essential contribution to these reviews.
