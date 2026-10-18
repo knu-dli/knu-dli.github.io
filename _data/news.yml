@@ -1,7 +1,7 @@
 # Newest first. date: YYYY-MM-DD (shown as "Mon YYYY"; add `label:` to show something else, e.g. a year).
 # Quote text (it may contain colons and HTML).
 # post: optional; the file name (without .md) of a post in _news/. The news item then links to that post.
-# icon: one emoji, e.g. 🎉 paper accepted · 🚀 project/funding · 📝 reviewing & service · ☁️ resources · 🏆 award · 👋 new member · 🎓 graduation
+# icon: one emoji, e.g. 🎉 paper accepted · 🚀 project/funding · 📝 reviewing & service · ☁️ resources · 🏆 award · 👋 new member · 🎓 graduation · 🎤 invited talk
 - date: 2026-10-17
   icon: 🏆
   post: arr-2026-may-outstanding-reviewer
@@ -42,6 +42,10 @@
 - date: 2025-03-01
   icon: 🚀
   text: "Our project on <em>Code-Expert Language Models and Coding Agents for AI-Assisted Software Development</em> (PI: Prof. Seonghyeon Lee) has been selected for a National Research Foundation of Korea (NRF) grant funded by the Korean government (MSIT), with an acceptance rate of 9.5% (Mar. 2025 – Feb. 2030)."
+- date: 2024-06-17
+  icon: 🎤
+  post: dgist-eecs-seminar-2024
+  text: "Seonghyeon Lee gave an invited talk, <em>Research Trends in Evaluating Generative Language Models</em>, at the DGIST EECS Invited Seminar."
 - date: 2024-01-01
   label: "2024"
   icon: 📚

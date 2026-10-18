@@ -37,7 +37,7 @@ awards:
   - { when: "Jun. 2015", title: "Rookie Award", where: "POSTECH Programming Contest (PPC)" }
 talks:
   - { when: "May 14, 2025", title: "Generative Code Language Models", where: "Seminar, Pukyong National University" }
-  - { when: "Jun. 17, 2024", title: "Evaluating Generative Language Models", where: "EECS Seminar, DGIST" }
+  - { when: "Jun. 17, 2024", title: "Evaluating Generative Language Models", where: "EECS Seminar, DGIST", url: /news/dgist-eecs-seminar-2024/ }
 # Kyungpook National University, from the KNU course catalog (knuin.knu.ac.kr)
 teaching:
   - { when: "Fall 2026", title: "Natural Language Processing", where: "자연언어처리", tags: [COME0746, Graduate] }
