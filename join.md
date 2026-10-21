@@ -30,7 +30,7 @@ lead: We welcome motivated students who want to do publication-quality research 
   </div>
   <div class="glance-item">
     <p class="glance-label">Apply</p>
-    <p>Email <strong>sh0416{at}knu.ac.kr</strong>, then a first meeting and a <strong>~2-month probation</strong></p>
+    <p>Email the <strong>faculty member</strong> you want to work with, then a first meeting and a <strong>~2-month probation</strong></p>
   </div>
 </div>
 
@@ -104,7 +104,7 @@ For graduate students, the graduation requirement is two papers in SCIE-indexed 
   </li>
   <li>
     <strong>Send an email.</strong>
-    <span>Write to <strong>sh0416{at}knu.ac.kr</strong> with a brief self-introduction and your academic background. In your email, briefly tell us which of the three principles in <a href="#how-we-work">How We Work</a> matters most to you, and why. AI tools are welcome in your research, but please read this page yourself.</span>
+    <span>Write to the faculty member you would like to be advised by: <a href="{{ '/people/seonghyeon-lee/' | relative_url }}">Prof. Seonghyeon Lee</a> (<strong>sh0416{at}knu.ac.kr</strong>) for NLP research, or <a href="{{ '/people/suyeon-kim/' | relative_url }}">Prof. Suyeon Kim</a> (<strong>kimsu55{at}knu.ac.kr</strong>) for graph research. Include a brief self-introduction and your academic background. In your email, briefly tell us which of the three principles in <a href="#how-we-work">How We Work</a> matters most to you, and why. AI tools are welcome in your research, but please read this page yourself.</span>
   </li>
   <li>
     <strong>First meeting.</strong>
