@@ -1,0 +1,8 @@
+# Technology transfers, shown as a list on the Projects page; the section is hidden while this is empty.
+# Example:
+# - year: 2027
+#   title: Name of the transferred technology
+#   recipient: Company name
+#   detail: Related patent or project (optional)
+#   link: https://... (optional)
+[]

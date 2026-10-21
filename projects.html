@@ -3,6 +3,26 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
+{% assign transfers = site.data.tech_transfers %}
+{% if transfers.size > 0 %}<h2 id="research-projects">Research Projects</h2>{% endif %}
 <div class="project-features">
 {% for p in site.data.projects %}{% include project-feature.html project=p %}{% endfor %}
 </div>
+
+{% if transfers.size > 0 %}
+<section class="pub-section" id="tech-transfer">
+  <h2>Technology Transfer</h2>
+  <ul class="pub-list">
+    {% for t in transfers %}
+    <li class="pub">
+      <span class="pub-venue">{{ t.year }}</span>
+      <div class="pub-body">
+        <p class="pub-title">{% if t.link %}<a href="{{ t.link }}" target="_blank" rel="noopener">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</p>
+        <p class="pub-authors">{{ t.recipient }}</p>
+        {% if t.detail %}<p class="pub-detail">{{ t.detail }}</p>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

@@ -183,3 +183,14 @@
       authors: Seonghyeon Lee, Hwanjo Yu
       venue: KCC 2019
       venue_detail: Korea Computer Congress 2019
+
+# Patents: authors = inventors, venue = status (e.g. "KR Patent (Filed)"),
+# venue_detail = application/registration number and date, year = filing year.
+- category: Patent
+  id: patent
+  items:
+    - year: 2026
+      title: Method and Electronic Device for Evaluating Algorithmic Diversity of Language Model-Generated Code
+      authors: Seonghyeon Lee
+      venue: KR Patent (Filed)
+      venue_detail: "Application No. 10-2026-0167031, filed Sep. 3, 2026"
