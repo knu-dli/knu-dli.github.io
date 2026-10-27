@@ -51,9 +51,9 @@ Pick the track that matches you.
 
 ## Other Universities & International {#apply-other}
 
-This track is for graduates of other universities in Korea or abroad with a degree in **computer science or AI** who plan to apply to our **M.S. or Ph.D. program**. We consider only applicants in the **top 10%** of their department or ranked **first or second** in it. Undergraduate researcher positions are open to KNU students only.
+This track is for graduates of other universities in Korea or abroad with a degree in **computer science or AI** who plan to apply to our **M.S. or Ph.D. program**. We consider only applicants in the **top 10%** of their department or ranked **first or second** in it, and who can attend an **on-site interview** at KNU in Daegu, Korea. **We do not accept applicants who cannot attend the on-site interview.** Undergraduate researcher positions are open to KNU students only.
 
-<p class="warning-box" role="note"><span class="warning-icon" aria-hidden="true">⚠</span><span>Emails that do not include all of the required documents may be blocked without a reply. International applicants who do not state whether they can attend an on-site interview in Daegu, Korea, will not receive a reply.</span></p>
+<p class="warning-box" role="note"><span class="warning-icon" aria-hidden="true">⚠</span><span>Emails that do not include all of the required documents may be blocked without a reply. We do not accept applicants who cannot attend an on-site interview in Daegu, Korea, and international applicants who do not state whether they can attend will not receive a reply.</span></p>
 
 The two most important parts of your application are the **proof of class rank** and the **student abstract**.
 
