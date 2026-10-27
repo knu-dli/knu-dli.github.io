@@ -252,17 +252,17 @@ img { max-width: 100%; display: block; }
 .prose .glance-item .glance-label { margin-bottom: 6px; font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
 
 .principles, .steps { list-style: none; padding: 0 !important; margin: 0 0 16px; counter-reset: item; }
-.principles li, .steps li {
+.principles > li, .steps > li {
   counter-increment: item; position: relative; padding: 14px 0 14px 52px; border-bottom: 1px solid var(--border);
 }
-.principles li + li, .steps li + li { margin-top: 0 !important; }
-.principles li:last-child, .steps li:last-child { border-bottom: 0; }
-.principles li::before, .steps li::before {
+.principles > li + li, .steps > li + li { margin-top: 0 !important; }
+.principles > li:last-child, .steps > li:last-child { border-bottom: 0; }
+.principles > li::before, .steps > li::before {
   content: counter(item); position: absolute; left: 0; top: 14px;
   width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center;
   font-weight: 700; font-size: 15px; background: var(--accent-soft); color: var(--accent);
 }
-.principles li > strong, .steps li > strong, .checklist li > strong { display: block; color: var(--text); margin-bottom: 2px; }
+.principles > li > strong, .steps > li > strong, .checklist li > strong { display: block; color: var(--text); margin-bottom: 2px; }
 .principles span strong, .steps span strong, .checklist span strong { color: var(--text); }
 .principles span, .steps span, .checklist span { color: var(--text-muted); }
 
