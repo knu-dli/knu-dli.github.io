@@ -15,7 +15,7 @@ Most updates only touch the YAML files in `_data/`:
 | News posts | `_news/<name>.md`, linked from a news item with `post: <name>`; attachments (e.g. certificates) go in `assets/news/` |
 | Navigation menu | `_data/navigation.yml` |
 
-Page text lives in `index.html` (home), `join.md` (how to apply, including GKS applicants), `lab-guide.md` (how the lab works and what we expect), and `contact.html`.
+Page text lives in `index.html` (home), `join.md` (how to apply), `lab-guide.md` (how the lab works and what we expect), and `contact.html`.
 Push to `main` and GitHub Pages rebuilds the site in about a minute.
 
 ## Local preview (optional)

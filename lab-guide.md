@@ -7,7 +7,6 @@ toc:
   - { id: how-we-work, title: How We Work }
   - { id: what-you-will-do, title: What You Will Do }
   - { id: lab-life, title: Lab Life & Probation }
-  - { id: what-we-look-for, title: What We Look For }
   - { id: using-ai, title: Using AI }
   - { id: publication-goals, title: Publication Goals }
   - { id: after-you-join, title: After You Join }
@@ -47,23 +46,6 @@ This keeps things transparent and predictable. If you are looking for a result-d
 **Core hours: weekdays 1–4 pm.** The professor regularly drops by the student lab for discussions or calls students to the office, so please be in the lab during these hours. If you have a class at that time, go to class; you do not need to ask. The point is simply to be around during regular working hours so that we can talk when needed. This is not a time sheet; outside these hours, come and go as you like.
 
 **Probation: about two months.** The first two months or so are a probation period, which may vary case by case. During this time we look broadly at your commitment to the lab and whether you can sustain research, in terms of passion and ability.
-
-## What We Look For {#what-we-look-for}
-
-**Who can apply.** KNU undergraduates in their third year or above, and current or prospective graduate students (see [How to Apply]({{ '/join/' | relative_url }})). Starting before your final year gives you time to carry a project through to publication before you graduate. Students who plan to go to graduate school and want intensive research experience are especially encouraged to apply.
-
-**Attitude.** We value students who are diligent, committed to the team, and able to keep doing research in the student lab over time; who discuss research with other students; and who test new ideas persistently. We prefer students who enjoy discovering new things and trying them out themselves over students who hand everything to AI. This is assessed during probation, through working alongside every member of the lab.
-
-**Baseline skills, checked at the first meeting without AI:**
-
-| Skill | What we check |
-| --- | --- |
-| English | Read the abstract of a paper the professor provides and explain it. |
-| Coding | Look at a given codebase and explain what it will output, or what bugs it has. |
-| CS fundamentals | Answer basic questions, mainly on data structures and algorithms. |
-{: .goal-table }
-
-**Self-check guides.** To gauge your readiness, try [this list of LeetCode problems](https://leetcode.com/problem-list/vur1tcd5/); you should be able to solve them within a day of focused effort. For English, current members have a TEPS score of 268 or higher or a TOEIC score of 780 or higher. These are guides, not cutoffs.
 
 ## Using AI {#using-ai}
 

@@ -1,43 +1,36 @@
 ---
 layout: page
-title: Join the Lab
+title: How to Apply
 eyebrow: Join Us
 permalink: /join/
 toc:
-  - { id: how-to-apply, title: How to Apply }
-  - { id: apply-knu, title: Domestic · KNU }
-  - { id: apply-domestic, title: Domestic · Other Universities }
-  - { id: apply-international, title: International }
-lead: We welcome motivated students who want to do publication-quality research on language models and coding agents. This page explains how to apply. Before you apply, read the Lab Guide on how the lab works and what we expect.
+  - { id: apply-knu, title: KNU Students }
+  - { id: apply-other, title: Other Universities & International }
+  - { id: interview-preparation, title: Interview Preparation }
+lead: We welcome motivated students who want to do publication-quality research on language models and coding agents.
 ---
 
-## How to Apply {#how-to-apply}
+Pick the track that matches you.
 
-Read the [Lab Guide]({{ '/join/guide/' | relative_url }}) first, then pick the track that matches you. **Emails that do not include all of the required documents for your track may be blocked without a reply.**
-
-<div class="glance glance-3">
-  <div class="glance-item">
-    <p class="glance-label">Domestic · KNU</p>
-    <p>KNU undergraduates in their <strong>third year or above</strong> and KNU graduate students. <a href="#apply-knu">See steps →</a></p>
-  </div>
-  <div class="glance-item">
-    <p class="glance-label">Domestic · Other Universities</p>
-    <p>Graduates in <strong>computer science or AI</strong> who plan to apply to our <strong>M.S. or Ph.D. program</strong>. <a href="#apply-domestic">See steps →</a></p>
-  </div>
-  <div class="glance-item">
-    <p class="glance-label">International</p>
-    <p>International graduates in <strong>computer science or AI</strong> who plan to apply to our <strong>M.S. or Ph.D. program</strong>, including through the GKS scholarship. <a href="#apply-international">See steps →</a></p>
-  </div>
+<div class="glance glance-1">
+  <a class="glance-item glance-link" href="#apply-knu">
+    <p class="glance-label">KNU Students</p>
+    <p>KNU undergraduates in their <strong>third year or above</strong> and KNU graduate students.</p>
+  </a>
+  <a class="glance-item glance-link" href="#apply-other">
+    <p class="glance-label">Other Universities &amp; International</p>
+    <p>Graduates of other universities in Korea or abroad with a degree in <strong>computer science or AI</strong> who plan to apply to our <strong>M.S. or Ph.D. program</strong>.</p>
+  </a>
 </div>
 
-### Domestic · KNU Students {#apply-knu}
+## KNU Students {#apply-knu}
 
 <ol class="steps">
   <li>
     <strong>Send an email.</strong>
     <span>Write to <a href="{{ '/people/seonghyeon-lee/' | relative_url }}">Prof. Seonghyeon Lee</a> (<strong>sh0416{at}knu.ac.kr</strong>) and include:
       <ul>
-        <li>your motivation for joining the lab, including which of the three principles in <a href="{{ '/join/guide/#how-we-work' | relative_url }}">How We Work</a> matters most to you, and why;</li>
+        <li>your motivation for joining the lab;</li>
         <li>the weekdays you can be in the lab;</li>
         <li>your expected graduation date;</li>
         <li>your certificate of enrollment and academic transcript;</li>
@@ -48,7 +41,7 @@ Read the [Lab Guide]({{ '/join/guide/' | relative_url }}) first, then pick the t
   </li>
   <li>
     <strong>First meeting.</strong>
-    <span>We talk about your motivation and goals, and check your English, coding, and CS fundamentals as described in <a href="{{ '/join/guide/#what-we-look-for' | relative_url }}">What We Look For</a>, without AI.</span>
+    <span>We talk about your motivation and goals, and check your English, coding, and CS fundamentals as described in <a href="#interview-preparation">Interview Preparation</a>, without AI.</span>
   </li>
   <li>
     <strong>Probation, then research.</strong>
@@ -56,9 +49,11 @@ Read the [Lab Guide]({{ '/join/guide/' | relative_url }}) first, then pick the t
   </li>
 </ol>
 
-### Domestic · Other Universities {#apply-domestic}
+## Other Universities & International {#apply-other}
 
-This track is for graduates of other Korean universities with a degree in **computer science or AI** who plan to apply to our **M.S. or Ph.D. program**. We consider only applicants in the **top 10%** of their department or ranked **first or second** in it. Undergraduate researcher positions are open to KNU students only.
+This track is for graduates of other universities in Korea or abroad with a degree in **computer science or AI** who plan to apply to our **M.S. or Ph.D. program**. We consider only applicants in the **top 10%** of their department or ranked **first or second** in it. Undergraduate researcher positions are open to KNU students only.
+
+<p class="warning-box" role="note"><span class="warning-icon" aria-hidden="true">⚠</span><span>Emails that do not include all of the required documents may be blocked without a reply. International applicants who do not state whether they can attend an on-site interview in Daegu, Korea, will not receive a reply.</span></p>
 
 The two most important parts of your application are the **proof of class rank** and the **student abstract**.
 
@@ -74,7 +69,7 @@ The two most important parts of your application are the **proof of class rank**
         <li><strong>Length:</strong> at most <strong>2 pages, including references</strong>.</li>
         <li><strong>Format:</strong> written in LaTeX with the AAAI two-column template from the <a href="https://aaai.org/authorkit27/">AAAI author kit</a>, submitted as a PDF. The abstract is not anonymized.</li>
         <li><strong>Content:</strong> a title; your full name, affiliation, and email; and a technical description of the problem, your method, and your <strong>experimental results</strong>. Figures, tables, or diagrams are welcome. <strong>Abstracts without experimental results will not be considered.</strong></li>
-        <li><strong>Topic:</strong> one of the following areas from the ACL Rolling Review call for papers:
+        <li><strong>Topic:</strong> one of the following areas from the <a href="https://aclrollingreview.org/cfp">ACL Rolling Review call for papers</a>:
           <ul>
             <li>Efficient Methods for NLP</li>
             <li>Interpretability and Analysis of Models for NLP</li>
@@ -87,22 +82,26 @@ The two most important parts of your application are the **proof of class rank**
   </li>
   <li>
     <strong>Send an email.</strong>
-    <span>Write to <a href="{{ '/people/seonghyeon-lee/' | relative_url }}">Prof. Seonghyeon Lee</a> (<strong>sh0416{at}knu.ac.kr</strong>) and attach your <strong>proof of class rank</strong> and your <strong>student abstract</strong>. Also include the same documents as <a href="#apply-knu">KNU students</a>, with a graduation certificate in place of the certificate of enrollment.</span>
+    <span>Write to <a href="{{ '/people/seonghyeon-lee/' | relative_url }}">Prof. Seonghyeon Lee</a> (<strong>sh0416{at}knu.ac.kr</strong>) and attach your <strong>proof of class rank</strong> and your <strong>student abstract</strong>. Also include the same documents as <a href="#apply-knu">KNU students</a>, with a graduation certificate in place of the certificate of enrollment. International applicants may submit a TOEFL or IELTS score report in place of TEPS or TOEIC. State clearly <strong>whether you can attend an on-site interview</strong> at KNU in Daegu, Korea, and the dates you are available.</span>
   </li>
   <li>
-    <strong>First meeting.</strong>
-    <span>You give a <strong>3-minute presentation</strong> of your abstract using a single static slide (no transitions, animations, video, or sound). We then talk about your motivation and goals, and check your English, coding, and CS fundamentals as described in <a href="{{ '/join/guide/#what-we-look-for' | relative_url }}">What We Look For</a>, without AI.</span>
+    <strong>On-site interview.</strong>
+    <span>The interview takes place in person at KNU. You give a <strong>3-minute presentation</strong> of your abstract using a single static slide (no transitions, animations, video, or sound). We then talk about your motivation and goals, and check your English, coding, and CS fundamentals as described in <a href="#interview-preparation">Interview Preparation</a>, without AI.</span>
   </li>
 </ol>
 
-### International {#apply-international}
+## Interview Preparation {#interview-preparation}
 
-International applicants follow the same eligibility criteria and steps as [Domestic · Other Universities](#apply-domestic), including the **proof of class rank**, the **student abstract**, and the **3-minute presentation**. Submit a TOEFL or IELTS score report in place of TEPS or TOEIC.
+**Baseline skills, checked at the interview without AI:**
 
-**GKS scholarship applicants.** If you are applying through the GKS scholarship program, you must also meet **all** of the following criteria; applications that do not will not be considered.
+| Skill | What we check |
+| --- | --- |
+| English | Read the abstract of a paper the professor provides and explain it. |
+| Coding | Look at a given codebase and explain what it will output, or what bugs it has. |
+| CS fundamentals | Answer basic questions, mainly on data structures and algorithms. |
+{: .goal-table }
 
-- **Academic record:** a cumulative GPA (CGPA) of **3.9 or higher** on a 4.0 scale.
-- **First-author NLP publication:** a paper on an NLP-related topic, published as the **first author** in an NLP-related journal or conference.
+**Self-check guides.** To gauge your readiness, try [this list of LeetCode problems](https://leetcode.com/problem-list/vur1tcd5/); you should be able to solve them within a day of focused effort. For English, current members have a TEPS score of 268 or higher or a TOEIC score of 780 or higher. These are guides, not cutoffs.
 
-In your email, include your CGPA and the full reference of your first-author publication. If you have already run relevant experiments, include your results, figures, or analysis. Contact us well in advance of the official GKS application period.
+**Attitude.** We value students who are diligent, committed to the team, and able to keep doing research in the student lab over time; who discuss research with other students; and who test new ideas persistently. We prefer students who enjoy discovering new things and trying them out themselves over students who hand everything to AI. This is assessed during probation, through working alongside every member of the lab.
 
