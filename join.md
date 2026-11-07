@@ -53,7 +53,7 @@ Pick the track that matches you.
 
 This track is for graduates of other universities in Korea or abroad with a degree in **computer science or AI** who plan to apply to our **M.S. or Ph.D. program**. We consider only applicants in the **top 10%** of their department or ranked **first or second** in it, and who can attend an **on-site interview** at KNU in Daegu, Korea. **We do not accept applicants who cannot attend the on-site interview.** Undergraduate researcher positions are open to KNU students only.
 
-<p class="warning-box" role="note"><span class="warning-icon" aria-hidden="true">⚠</span><span>Emails that do not include all of the required documents may be blocked without a reply. We do not accept applicants who cannot attend an on-site interview in Daegu, Korea, and international applicants who do not state whether they can attend will not receive a reply.</span></p>
+<p class="warning-box" role="note"><span class="warning-icon" aria-hidden="true">⚠</span><span>Apply only through the <a href="https://forms.gle/K6yyRyAUJdPouEdP9" target="_blank" rel="noopener">application form</a>. <strong>Do not apply by email: applicants who email the professor instead of submitting the form will be disqualified.</strong> Applications that do not include all of the required documents will not be considered. We do not accept applicants who cannot attend an on-site interview in Daegu, Korea, and international applicants who do not state whether they can attend will not be considered.</span></p>
 
 The two most important parts of your application are the **proof of class rank** and the **student abstract**.
 
@@ -81,8 +81,8 @@ The two most important parts of your application are the **proof of class rank**
       </ul></span>
   </li>
   <li>
-    <strong>Send an email.</strong>
-    <span>Write to <a href="{{ '/people/seonghyeon-lee/' | relative_url }}">Prof. Seonghyeon Lee</a> (<strong>sh0416{at}knu.ac.kr</strong>) and attach your <strong>proof of class rank</strong> and your <strong>student abstract</strong>. Also include the same documents as <a href="#apply-knu">KNU students</a>, with a graduation certificate in place of the certificate of enrollment. International applicants may submit a TOEFL or IELTS score report in place of TEPS or TOEIC. State clearly <strong>whether you can attend an on-site interview</strong> at KNU in Daegu, Korea, and the dates you are available.</span>
+    <strong>Fill out the application form.</strong>
+    <span>Submit the <a href="https://forms.gle/K6yyRyAUJdPouEdP9" target="_blank" rel="noopener">application form</a> and upload your <strong>proof of class rank</strong> and your <strong>student abstract</strong>. Also include the same documents as <a href="#apply-knu">KNU students</a>, with a graduation certificate in place of the certificate of enrollment. International applicants may submit a TOEFL or IELTS score report in place of TEPS or TOEIC. State clearly <strong>whether you can attend an on-site interview</strong> at KNU in Daegu, Korea, and the dates you are available.</span>
   </li>
   <li>
     <strong>On-site interview.</strong>
