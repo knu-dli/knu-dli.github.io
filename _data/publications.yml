@@ -18,6 +18,7 @@
       venue: EMNLP 2026 Main
       venue_detail: "Acceptance rate: 15.4%"
       links:
+        paper: https://aclanthology.org/2026.emnlp-main.2670/
         arxiv: https://arxiv.org/abs/2603.19742
     - year: 2026
       title: On the Effectiveness of Integration Methods for Multimodal Dialogue Response Retrieval
