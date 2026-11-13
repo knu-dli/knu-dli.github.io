@@ -3,6 +3,11 @@
 - category: International Conference
   id: conference
   items:
+    - year: 2027
+      title: "From What to Respond to When to Respond: Timely Response Generation for Open-domain Dialog Agents"
+      authors: Seongbo Jang, Minjin Jeon, Jaehoon Lee, Seonghyeon Lee, Dongha Lee, Hwanjo Yu
+      venue: EACL 2027 Findings
+      venue_detail: "Findings of the Association for Computational Linguistics: EACL 2027 (Acceptance rate: 24.6%)"
     - year: 2026
       title: "Layer-wise Target Propagation: Efficient Component Attribution through Target Centric Propagation"
       authors: "Lasse Marten Jantsch, Dong-Jae Koh, Seonghyeon Lee*, Young-Kyoon Suh*"
