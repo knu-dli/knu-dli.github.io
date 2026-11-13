@@ -16,7 +16,7 @@
       authors: "Lasse Marten Jantsch, Dong-Jae Koh, Seonghyeon Lee*, Young-Kyoon Suh*"
       note: "*: Corresponding authors"
       venue: EMNLP 2026 Main
-      venue_detail: "Acceptance rate: 15.4%"
+      venue_detail: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (Acceptance rate: 15.4%)"
       links:
         paper: https://aclanthology.org/2026.emnlp-main.2670/
         arxiv: https://arxiv.org/abs/2603.19742
