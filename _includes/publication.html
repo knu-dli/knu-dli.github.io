@@ -3,7 +3,8 @@
   {% assign bold = '<strong>' | append: m.name | append: '</strong>' %}
   {% assign authors = authors | replace: m.name, bold %}
 {% endfor %}{% endfor %}
-<li class="pub">
+{% assign pub_id = include.pub.slug | default: include.pub.title | slugify %}
+<li class="pub" id="{{ pub_id }}">
   <span class="pub-venue">{{ include.pub.venue }}</span>
   <div class="pub-body">
     <p class="pub-title">{{ include.pub.title }}</p>

@@ -484,6 +484,7 @@ img { max-width: 100%; display: block; }
 .member:hover .avatar { transform: scale(1.04); }
 .pub { transition: background-color 160ms ease; border-radius: 8px; }
 .pub:hover { background: var(--bg-soft); }
+.pub:target { background: var(--accent-soft); }
 .nt-dot { transition: transform 200ms ease, border-color 200ms ease, box-shadow 200ms ease; }
 .nt-body { border-radius: 10px; margin: -6px 0 -6px -8px; padding: 8px 10px 8px 8px; transition: background-color 180ms ease, transform 180ms ease; }
 .news-timeline li:hover .nt-dot {

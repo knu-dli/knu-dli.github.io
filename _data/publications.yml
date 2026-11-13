@@ -1,14 +1,17 @@
 # Lab members' names (from _data/members.yml) are highlighted automatically.
 # links: paper (official publisher / ACL Anthology page), arxiv, code, project — shown as buttons in that order
+# slug: optional anchor id (default: slugified title), so news can link to /publications/#<slug>
 - category: International Conference
   id: conference
   items:
     - year: 2027
+      slug: timely-response-eacl2027
       title: "From What to Respond to When to Respond: Timely Response Generation for Open-domain Dialog Agents"
       authors: Seongbo Jang, Minjin Jeon, Jaehoon Lee, Seonghyeon Lee, Dongha Lee, Hwanjo Yu
       venue: EACL 2027 Findings
       venue_detail: "Findings of the Association for Computational Linguistics: EACL 2027 (Acceptance rate: 24.6%)"
     - year: 2026
+      slug: layer-wise-target-propagation-emnlp2026
       title: "Layer-wise Target Propagation: Efficient Component Attribution through Target Centric Propagation"
       authors: "Lasse Marten Jantsch, Dong-Jae Koh, Seonghyeon Lee*, Young-Kyoon Suh*"
       note: "*: Corresponding authors"
@@ -38,6 +41,7 @@
       links:
         paper: https://doi.org/10.1609/aaai.v40i26.39328
     - year: 2025
+      slug: algorithmic-diversity-emnlp2025
       title: "How Diversely Can Language Models Solve Problems? Exploring the Algorithmic Diversity of Model-Generated Code"
       authors: Seonghyeon Lee, HeeJae Chon, Joonwon Jang, Dongha Lee, Hwanjo Yu
       venue: EMNLP 2025 Findings
@@ -46,6 +50,7 @@
         paper: https://aclanthology.org/2025.findings-emnlp.10/
         arxiv: https://arxiv.org/abs/2503.00691
     - year: 2025
+      slug: verbosity-aware-rationale-reduction-acl2025
       title: "Verbosity-Aware Rationale Reduction: Sentence-Level Rationale Reduction for Efficient and Effective Reasoning"
       authors: Joonwon Jang, Jaehee Kim, Wongin Kweon, Seonghyeon Lee, Hwanjo Yu
       venue: ACL 2025 Findings
