@@ -49,7 +49,9 @@ teaching:
   - { when: "Spring 2025", title: "AI Convergence Applications", where: "인공지능융합응용", tags: [GRAD0732, Graduate] }
   - { when: "Spring 2025", title: "Open Source Programming", where: "오픈소스프로그래밍", tags: [GLSO0215, Undergraduate] }
 service:
+  - { when: "Nov. 2026", title: "Reviewer", where: "Computer Science Review" }
   - { when: "Oct. 2026", title: "Senior Program Committee Member", where: "AAAI-27" }
+  - { when: "Jul. 2026", title: "Reviewer", where: "Expert Systems with Applications" }
   - { when: "Nov. 2025", title: "Reviewer", where: "ACM Transactions on Software Engineering and Methodology (TOSEM)" }
   - { when: "Oct. 2025", title: "Area Chair", where: "ACL Rolling Review (October 2025 cycle)" }
   - { when: "Aug. 2025", title: "Program Committee Member", where: "AAAI-26" }
