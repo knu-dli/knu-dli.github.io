@@ -339,6 +339,8 @@ img { max-width: 100%; display: block; }
 .timeline .timeline-sub { list-style: none; margin: 2px 0 0; padding: 0 !important; color: var(--text-muted); font-size: 15px; }
 .timeline .timeline-sub li { display: flex; align-items: baseline; gap: 12px; padding: 0; border: 0; }
 .timeline .timeline-sub .sub-main { flex: 1; padding-left: 1em; text-indent: -1em; }
+.timeline .timeline-sub strong a { color: inherit; text-decoration: none; }
+.timeline .timeline-sub strong a:hover { text-decoration: underline; }
 .timeline .timeline-sub .sub-rank { color: var(--text-faint); font-size: 13px; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .timeline .timeline-sub li + li { margin-top: 2px !important; }
 .timeline .timeline-what > .timeline-sub:first-child { margin-top: 0; }
