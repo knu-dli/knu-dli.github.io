@@ -51,25 +51,25 @@ teaching:
 service:
   - when: "2026"
     items:
-      - { venue: "ACL 2026 (ARR, BK21 IF 4)", role: "Area Chair" }
-      - { venue: "AAAI-27 (BK21 IF 4)", role: "Senior Program Committee" }
-      - { venue: "EMNLP 2026 (ARR, BK21 IF 3)", role: "Reviewer, Outstanding Reviewer" }
-      - { venue: "NAACL 2027 (ARR, BK21 IF 2)", role: "Reviewer" }
-      - { venue: "Computer Science Review (JCR Top 1%)", role: "Reviewer" }
-      - { venue: "Expert Systems with Applications (JCR Q1)", role: "Reviewer" }
-      - { venue: "Korea Software Congress (KSC)", role: "Reviewer" }
+      - { venue: "ACL 2026", role: "Area Chair, ARR January", rank: "BK21 IF 4" }
+      - { venue: "AAAI 2027", role: "Senior Program Committee", rank: "BK21 IF 4" }
+      - { venue: "EMNLP 2026", role: "Outstanding Reviewer, ARR May", rank: "BK21 IF 3" }
+      - { venue: "NAACL 2027", role: "Reviewer, ARR October", rank: "BK21 IF 2" }
+      - { venue: "Computer Science Review (CSR)", role: "Reviewer", rank: "JCR Top 1%" }
+      - { venue: "Expert Systems with Applications (ESWA)", role: "Reviewer", rank: "JCR Q1" }
+      - { venue: "KSC 2026", role: "Reviewer" }
   - when: "2025"
     items:
-      - { venue: "EACL 2026 (ARR, BK21 IF 2)", role: "Area Chair" }
-      - { venue: "AAAI-26 (BK21 IF 4)", role: "Program Committee" }
-      - { venue: "ACL 2025 (ARR, BK21 IF 4)", role: "Reviewer" }
-      - { venue: "ACM Transactions on Software Engineering and Methodology (JCR Q1)", role: "Reviewer" }
+      - { venue: "AAAI 2026", role: "Program Committee", rank: "BK21 IF 4" }
+      - { venue: "ACL 2025", role: "Reviewer, ARR February", rank: "BK21 IF 4" }
+      - { venue: "EACL 2026", role: "Area Chair, ARR October", rank: "BK21 IF 2" }
+      - { venue: "ACM Transactions on Software Engineering and Methodology (TOSEM)", role: "Reviewer", rank: "JCR Q1" }
   - when: "2024"
     items:
       - { venue: "ACL Rolling Review", role: "Reviewer" }
-      - { venue: "Korea Software Congress (KSC)", role: "Reviewer" }
+      - { venue: "KSC 2024", role: "Reviewer" }
   - when: "2023"
     items:
-      - { venue: "ACL Rolling Review", role: "Reviewer (since Sep. 2023)" }
-      - { venue: "Artificial Intelligence Review (JCR Q1)", role: "Reviewer" }
+      - { venue: "ACL Rolling Review", role: "Reviewer, since September" }
+      - { venue: "Artificial Intelligence Review (AIR)", role: "Reviewer", rank: "JCR Q1" }
 ---

@@ -45,7 +45,7 @@ layout: default
               {% for r in rows %}
               <li>
                 <span class="timeline-when">{{ r.when }}</span>
-                <span class="timeline-what">{% if r.title %}<strong>{% if r.url %}<a href="{{ r.url | relative_url }}">{{ r.title }}</a>{% else %}{{ r.title }}{% endif %}</strong>{% endif %}{% if r.where %}<span>{{ r.where }}</span>{% endif %}{% if r.items %}<ul class="timeline-sub">{% for i in r.items %}<li>{% if i.venue %}<strong>{{ i.venue }}</strong>{% if i.role %} · {{ i.role }}{% endif %}{% else %}{{ i }}{% endif %}</li>{% endfor %}</ul>{% endif %}{% if r.tags %}<span class="timeline-tags">{% for t in r.tags %}<span class="tag">{{ t }}</span>{% endfor %}</span>{% endif %}</span>
+                <span class="timeline-what">{% if r.title %}<strong>{% if r.url %}<a href="{{ r.url | relative_url }}">{{ r.title }}</a>{% else %}{{ r.title }}{% endif %}</strong>{% endif %}{% if r.where %}<span>{{ r.where }}</span>{% endif %}{% if r.items %}<ul class="timeline-sub">{% for i in r.items %}<li>{% if i.venue %}<span class="sub-main"><strong>{{ i.venue }}</strong>{% if i.role %} · {{ i.role }}{% endif %}</span>{% if i.rank %}<span class="sub-rank">{{ i.rank }}</span>{% endif %}{% else %}<span class="sub-main">{{ i }}</span>{% endif %}</li>{% endfor %}</ul>{% endif %}{% if r.tags %}<span class="timeline-tags">{% for t in r.tags %}<span class="tag">{{ t }}</span>{% endfor %}</span>{% endif %}</span>
               </li>
               {% endfor %}
             </ul>
