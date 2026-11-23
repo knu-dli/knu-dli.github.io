@@ -53,7 +53,7 @@ service:
     items:
       - { venue: "ACL 2026", role: "Area Chair, ARR January", rank: "BK21 IF 4" }
       - { venue: "AAAI 2027", role: "Senior Program Committee", rank: "BK21 IF 4" }
-      - { venue: "EMNLP 2026", role: "Outstanding Reviewer, ARR May", rank: "BK21 IF 3" }
+      - { venue: "EMNLP 2026", role: "Reviewer, ARR May", rank: "BK21 IF 3" }
       - { venue: "NAACL 2027", role: "Reviewer, ARR October", rank: "BK21 IF 2" }
       - { venue: "Computer Science Review", role: "Reviewer", rank: "JCR Top 1%" }
       - { venue: "Expert Systems with Applications (ESWA)", role: "Reviewer", rank: "JCR Q1" }
