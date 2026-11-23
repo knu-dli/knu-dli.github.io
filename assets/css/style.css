@@ -325,13 +325,14 @@ img { max-width: 100%; display: block; }
 .profile-pubs { margin-top: 48px; }
 .profile-pubs h2 .count { font-size: 15px; font-weight: 600; color: var(--text-faint); margin-left: 6px; }
 .timeline { list-style: none; padding: 0 !important; margin: 0; }
-.timeline li { display: grid; grid-template-columns: 172px 1fr; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.timeline li { display: grid; grid-template-columns: 156px 1fr; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--border); line-height: 1.5; }
 .timeline li + li { margin-top: 0 !important; }
 .timeline li:last-child { border-bottom: 0; }
-.timeline-when { color: var(--text-faint); font-size: 14px; font-variant-numeric: tabular-nums; }
-.timeline-what strong { display: block; color: var(--text); font-weight: 600; }
-.timeline-what > span { display: block; color: var(--text-muted); font-size: 15px; }
-.timeline-what > .timeline-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.timeline-when { color: var(--text-faint); font-size: 14px; font-variant-numeric: tabular-nums; padding-top: 1px; }
+.timeline-what strong { color: var(--text); font-weight: 600; }
+.timeline-what > span { color: var(--text-muted); font-size: 15px; }
+.timeline-what > span:not(.timeline-tags)::before { content: " · "; color: var(--text-faint); }
+.timeline-what > .timeline-tags { display: inline-flex; flex-wrap: wrap; gap: 4px; margin-left: 8px; vertical-align: 1px; }
 .tag { font-size: 12px; font-weight: 600; line-height: 1; padding: 4px 8px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); font-variant-numeric: tabular-nums; }
 @media (max-width: 640px) { .timeline li { grid-template-columns: 1fr; gap: 2px; } }
 
