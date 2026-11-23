@@ -49,13 +49,18 @@ teaching:
   - { when: "Spring 2025", title: "AI Convergence Applications", where: "인공지능융합응용", tags: [GRAD0732, Graduate] }
   - { when: "Spring 2025", title: "Open Source Programming", where: "오픈소스프로그래밍", tags: [GLSO0215, Undergraduate] }
 service:
-  - { when: "Nov. 2026", title: "Reviewer", where: "Computer Science Review" }
-  - { when: "Oct. 2026", title: "Senior Program Committee Member", where: "AAAI-27" }
-  - { when: "Jul. 2026", title: "Reviewer", where: "Expert Systems with Applications" }
-  - { when: "Nov. 2025", title: "Reviewer", where: "ACM Transactions on Software Engineering and Methodology (TOSEM)" }
-  - { when: "Oct. 2025", title: "Area Chair", where: "ACL Rolling Review (October 2025 cycle)" }
-  - { when: "Aug. 2025", title: "Program Committee Member", where: "AAAI-26" }
+  - { when: "Nov. 2026", title: "Reviewer", where: "Computer Science Review", tags: ["JCR Top 1%"] }
+  - { when: "Nov. 2026", title: "Reviewer", where: "Korea Software Congress (KSC)" }
+  - { when: "Oct. 2026", title: "Reviewer", where: "ACL Rolling Review (October 2026 cycle · NAACL 2027)", tags: ["BK21 IF 2"] }
+  - { when: "Oct. 2026", title: "Senior Program Committee Member", where: "AAAI-27", tags: ["BK21 IF 4"] }
+  - { when: "Jul. 2026", title: "Reviewer", where: "Expert Systems with Applications", tags: ["JCR Q1"] }
+  - { when: "May 2026", title: "Reviewer", where: "ACL Rolling Review (May 2026 cycle · EMNLP 2026)", url: /news/arr-2026-may-outstanding-reviewer/, tags: ["BK21 IF 3", "Outstanding Reviewer"] }
+  - { when: "Jan. 2026", title: "Area Chair", where: "ACL Rolling Review (January 2026 cycle · ACL 2026)", tags: ["BK21 IF 4"] }
+  - { when: "Nov. 2025", title: "Reviewer", where: "ACM Transactions on Software Engineering and Methodology (TOSEM)", tags: ["JCR Q1"] }
+  - { when: "Oct. 2025", title: "Area Chair", where: "ACL Rolling Review (October 2025 cycle · EACL 2026)", tags: ["BK21 IF 2"] }
+  - { when: "Aug. 2025", title: "Program Committee Member", where: "AAAI-26", tags: ["BK21 IF 4"] }
+  - { when: "Feb. 2025", title: "Reviewer", where: "ACL Rolling Review (February 2025 cycle · ACL 2025)", tags: ["BK21 IF 4"] }
   - { when: "Sep. 2023 – Present", title: "Reviewer", where: "ACL Rolling Review" }
   - { when: "Apr. 2024", title: "Reviewer", where: "Korea Software Congress (KSC)" }
-  - { when: "Sep. – Oct. 2023", title: "Reviewer", where: "Artificial Intelligence Review" }
+  - { when: "Sep. – Oct. 2023", title: "Reviewer", where: "Artificial Intelligence Review", tags: ["JCR Q1"] }
 ---
