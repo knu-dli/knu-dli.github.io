@@ -41,7 +41,7 @@ layout: default
           {% if rows and rows.size > 0 %}
           <section>
             <h2 id="{{ key }}">{{ kv[1] }}</h2>
-            <ul class="timeline">
+            <ul class="timeline timeline-{{ key }}">
               {% for r in rows %}
               <li>
                 <span class="timeline-when">{{ r.when }}</span>

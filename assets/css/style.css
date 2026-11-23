@@ -333,6 +333,9 @@ img { max-width: 100%; display: block; }
 .timeline-what > span { color: var(--text-muted); font-size: 15px; }
 .timeline-what > span:not(.timeline-tags)::before { content: " · "; color: var(--text-faint); }
 .timeline-what > .timeline-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+/* Education and Experience stay short, so each row stacks title over details */
+:is(.timeline-education, .timeline-experience) .timeline-what > :is(strong, span) { display: block; }
+:is(.timeline-education, .timeline-experience) .timeline-what > span::before { content: none; }
 .tag { font-size: 12px; font-weight: 600; line-height: 1; padding: 4px 8px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); font-variant-numeric: tabular-nums; }
 @media (max-width: 640px) { .timeline li { grid-template-columns: 1fr; gap: 2px; } }
 
