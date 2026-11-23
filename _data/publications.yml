@@ -180,7 +180,15 @@
 
 - category: Preprint
   id: preprint
-  items: []
+  items:
+    - year: 2026
+      slug: jet-arxiv2026
+      title: "JET: Just-Enough Exploration Tuning for Efficient Tool-Calling Agents in Repository-Level Question Answering"
+      authors: Yoonho Choi, Taehyeon Han, Seonghyeon Lee
+      venue: arXiv 2026
+      venue_detail: "arXiv preprint arXiv:2611.22539"
+      links:
+        arxiv: https://arxiv.org/abs/2611.22539
 
 - category: Domestic Journal
   id: domestic-journal
