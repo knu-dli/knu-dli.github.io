@@ -49,8 +49,27 @@ teaching:
   - { when: "Spring 2025", title: "AI Convergence Applications", where: "인공지능융합응용", tags: [GRAD0732, Graduate] }
   - { when: "Spring 2025", title: "Open Source Programming", where: "오픈소스프로그래밍", tags: [GLSO0215, Undergraduate] }
 service:
-  - { when: "Sep. 2023 – Present", title: "ACL Rolling Review", where: "Area Chair: ACL 2026 (BK21 IF 4), EACL 2026 (BK21 IF 2) · Reviewer: NAACL 2027 (BK21 IF 2), EMNLP 2026 (BK21 IF 3, Outstanding Reviewer), ACL 2025 (BK21 IF 4), and earlier cycles" }
-  - { when: "2025 – 2026", title: "AAAI", where: "Senior Program Committee: AAAI-27 (BK21 IF 4) · Program Committee: AAAI-26 (BK21 IF 4)" }
-  - { when: "2023 – Present", title: "Journal Reviewer", where: "Computer Science Review (JCR Top 1%), Expert Systems with Applications (JCR Q1), ACM TOSEM (JCR Q1), Artificial Intelligence Review (JCR Q1)" }
-  - { when: "2024, 2026", title: "Korea Software Congress (KSC)", where: "Reviewer" }
+  - when: "2026"
+    items:
+      - { venue: "ACL 2026 (ARR, BK21 IF 4)", role: "Area Chair" }
+      - { venue: "AAAI-27 (BK21 IF 4)", role: "Senior Program Committee" }
+      - { venue: "EMNLP 2026 (ARR, BK21 IF 3)", role: "Reviewer, Outstanding Reviewer" }
+      - { venue: "NAACL 2027 (ARR, BK21 IF 2)", role: "Reviewer" }
+      - { venue: "Computer Science Review (JCR Top 1%)", role: "Reviewer" }
+      - { venue: "Expert Systems with Applications (JCR Q1)", role: "Reviewer" }
+      - { venue: "Korea Software Congress (KSC)", role: "Reviewer" }
+  - when: "2025"
+    items:
+      - { venue: "EACL 2026 (ARR, BK21 IF 2)", role: "Area Chair" }
+      - { venue: "AAAI-26 (BK21 IF 4)", role: "Program Committee" }
+      - { venue: "ACL 2025 (ARR, BK21 IF 4)", role: "Reviewer" }
+      - { venue: "ACM Transactions on Software Engineering and Methodology (JCR Q1)", role: "Reviewer" }
+  - when: "2024"
+    items:
+      - { venue: "ACL Rolling Review", role: "Reviewer" }
+      - { venue: "Korea Software Congress (KSC)", role: "Reviewer" }
+  - when: "2023"
+    items:
+      - { venue: "ACL Rolling Review", role: "Reviewer (since Sep. 2023)" }
+      - { venue: "Artificial Intelligence Review (JCR Q1)", role: "Reviewer" }
 ---

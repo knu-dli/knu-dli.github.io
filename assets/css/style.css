@@ -336,6 +336,12 @@ img { max-width: 100%; display: block; }
 /* Short sections stack each row's title over its details */
 :is(.timeline-education, .timeline-experience, .timeline-service) .timeline-what > :is(strong, span) { display: block; }
 :is(.timeline-education, .timeline-experience, .timeline-service) .timeline-what > span::before { content: none; }
+.timeline .timeline-sub { list-style: none; margin: 2px 0 0; padding: 0 !important; color: var(--text-muted); font-size: 15px; }
+.timeline .timeline-sub li { display: block; padding: 0 0 0 1em; text-indent: -1em; border: 0; }
+.timeline .timeline-sub li + li { margin-top: 2px !important; }
+.timeline .timeline-what > .timeline-sub:first-child { margin-top: 0; }
+/* Service rows are keyed by year only, so the date column can be narrow */
+@media (min-width: 641px) { .timeline-service > li { grid-template-columns: 48px 1fr; } }
 .tag { font-size: 12px; font-weight: 600; line-height: 1; padding: 4px 8px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); font-variant-numeric: tabular-nums; }
 @media (max-width: 640px) { .timeline li { grid-template-columns: 1fr; gap: 2px; } }
 
