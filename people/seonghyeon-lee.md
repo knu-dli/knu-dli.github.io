@@ -56,14 +56,14 @@ service:
       - { venue: "EMNLP 2026", role: "Reviewer, ARR May", rank: "BK21 IF 3" }
       - { venue: "NAACL 2027", role: "Reviewer, ARR October", rank: "BK21 IF 2" }
       - { venue: "Computer Science Review", role: "Reviewer", rank: "JCR Top 1%", url: "https://www.sciencedirect.com/journal/computer-science-review" }
-      - { venue: "Expert Systems with Applications (ESWA)", role: "Reviewer", rank: "JCR Q1", url: "https://www.sciencedirect.com/journal/expert-systems-with-applications" }
+      - { venue: "Expert Systems with Applications (ESWA)", role: "Reviewer", rank: "JCR Top 10%", url: "https://www.sciencedirect.com/journal/expert-systems-with-applications" }
       - { venue: "KSC 2026", role: "Reviewer" }
   - when: "2025"
     items:
       - { venue: "AAAI 2026", role: "Program Committee", rank: "BK21 IF 4" }
       - { venue: "ACL 2025", role: "Reviewer, ARR February", rank: "BK21 IF 4" }
       - { venue: "EACL 2026", role: "Area Chair, ARR October", rank: "BK21 IF 2" }
-      - { venue: "ACM Transactions on Software Engineering and Methodology (TOSEM)", role: "Reviewer", rank: "JCR Q1", url: "https://dl.acm.org/journal/tosem" }
+      - { venue: "ACM Transactions on Software Engineering and Methodology (TOSEM)", role: "Reviewer", rank: "JCR Top 10%", url: "https://dl.acm.org/journal/tosem" }
   - when: "2024"
     items:
       - { venue: "ACL Rolling Review", role: "Reviewer" }
@@ -71,5 +71,5 @@ service:
   - when: "2023"
     items:
       - { venue: "ACL Rolling Review", role: "Reviewer, since September" }
-      - { venue: "Artificial Intelligence Review", role: "Reviewer", rank: "JCR Q1", url: "https://link.springer.com/journal/10462" }
+      - { venue: "Artificial Intelligence Review", role: "Reviewer", rank: "JCR Top 5%", url: "https://link.springer.com/journal/10462" }
 ---
