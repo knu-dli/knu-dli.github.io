@@ -1,6 +1,18 @@
 # Lab members' names (from _data/members.yml) are highlighted automatically.
 # links: paper (official publisher / ACL Anthology page), arxiv, code, project — shown as buttons in that order
 # slug: optional anchor id (default: slugified title), so news can link to /publications/#<slug>
+- category: Preprint
+  id: preprint
+  items:
+    - year: 2026
+      slug: jet-arxiv2026
+      title: "JET: Just-Enough Exploration Tuning for Efficient Tool-Calling Agents in Repository-Level Question Answering"
+      authors: Yoonho Choi, Taehyeon Han, Seonghyeon Lee
+      venue: arXiv 2026
+      venue_detail: "arXiv preprint arXiv:2611.22539"
+      links:
+        arxiv: https://arxiv.org/abs/2611.22539
+
 - category: International Conference
   id: conference
   items:
@@ -177,18 +189,6 @@
       venue_detail: IEICE Transactions on Information and Systems, 2026, Vol. E109.D, No. 2, pp. 273–278 (SCI-E)
       links:
         paper: https://doi.org/10.1587/transinf.2025EDL8010
-
-- category: Preprint
-  id: preprint
-  items:
-    - year: 2026
-      slug: jet-arxiv2026
-      title: "JET: Just-Enough Exploration Tuning for Efficient Tool-Calling Agents in Repository-Level Question Answering"
-      authors: Yoonho Choi, Taehyeon Han, Seonghyeon Lee
-      venue: arXiv 2026
-      venue_detail: "arXiv preprint arXiv:2611.22539"
-      links:
-        arxiv: https://arxiv.org/abs/2611.22539
 
 - category: Domestic Journal
   id: domestic-journal
