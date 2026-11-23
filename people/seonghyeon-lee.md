@@ -55,7 +55,7 @@ service:
       - { venue: "AAAI 2027", role: "Senior Program Committee", rank: "BK21 IF 4" }
       - { venue: "EMNLP 2026", role: "Outstanding Reviewer, ARR May", rank: "BK21 IF 3" }
       - { venue: "NAACL 2027", role: "Reviewer, ARR October", rank: "BK21 IF 2" }
-      - { venue: "Computer Science Review (CSR)", role: "Reviewer", rank: "JCR Top 1%" }
+      - { venue: "Computer Science Review", role: "Reviewer", rank: "JCR Top 1%" }
       - { venue: "Expert Systems with Applications (ESWA)", role: "Reviewer", rank: "JCR Q1" }
       - { venue: "KSC 2026", role: "Reviewer" }
   - when: "2025"
@@ -71,5 +71,5 @@ service:
   - when: "2023"
     items:
       - { venue: "ACL Rolling Review", role: "Reviewer, since September" }
-      - { venue: "Artificial Intelligence Review (AIR)", role: "Reviewer", rank: "JCR Q1" }
+      - { venue: "Artificial Intelligence Review", role: "Reviewer", rank: "JCR Q1" }
 ---
