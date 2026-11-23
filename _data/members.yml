@@ -40,6 +40,19 @@
       interests: LLM Agents
       email: yoonhoc{at}knu.ac.kr
       photo: yoonho-choi.jpg
+    - name: Sukyeon Ha
+      role: M.S. Student
+      interests: Robust Evaluation, Graph Learning
+      email: sukyeon17{at}knu.ac.kr
+      photo: sukyeon-ha.jpg
+    - name: Hwanhui Choi
+      role: M.S. Student
+      interests:
+      photo: hwanhui-choi.jpg
+    - name: Jieun Yu
+      role: M.S. Student
+      interests: LLM Agents
+      email: poiuy102938{at}knu.ac.kr
 
 # Affiliates: people who research with the lab but are not its degree students
 # (visiting researchers, research staff, undergraduate researchers). Add "· Institution" for external members.
@@ -51,12 +64,3 @@
       email: micolak0115{at}postech.ac.kr
       homepage: https://micolak0115.github.io
       photo: kyungwhan-an.jpg
-    - name: Sukyeon Ha
-      role: Researcher
-      interests: Robust Evaluation, Graph Learning
-      email: sukyeon17{at}knu.ac.kr
-      photo: sukyeon-ha.jpg
-    - name: Hwanhui Choi
-      role: Undergraduate Researcher
-      interests:
-      photo: hwanhui-choi.jpg
