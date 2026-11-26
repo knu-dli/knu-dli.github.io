@@ -58,6 +58,7 @@ service:
       - { venue: "Computer Science Review", role: "Reviewer", rank: "JCR Top 1%", url: "https://www.sciencedirect.com/journal/computer-science-review" }
       - { venue: "Expert Systems with Applications (ESWA)", role: "Reviewer", rank: "JCR Top 10%", url: "https://www.sciencedirect.com/journal/expert-systems-with-applications" }
       - { venue: "KSC 2026", role: "Reviewer" }
+      - { venue: "UCWIT 2026", role: "Program Committee", url: "https://ucwit2026.knu.ac.kr/organizer.html" }
   - when: "2025"
     items:
       - { venue: "AAAI 2026", role: "Program Committee", rank: "BK21 IF 4" }
