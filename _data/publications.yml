@@ -22,6 +22,8 @@
       authors: Seongbo Jang, Minjin Jeon, Jaehoon Lee, Seonghyeon Lee, Dongha Lee, Hwanjo Yu
       venue: EACL 2027 Findings
       venue_detail: "Findings of the Association for Computational Linguistics: EACL 2027 (Acceptance rate: 24.6%)"
+      links:
+        arxiv: https://arxiv.org/abs/2506.14285
     - year: 2026
       slug: layer-wise-target-propagation-emnlp2026
       title: "Layer-wise Target Propagation: Efficient Component Attribution through Target Centric Propagation"
